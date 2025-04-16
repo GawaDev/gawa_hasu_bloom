@@ -143,6 +143,7 @@ body {
 main {
     padding: 1rem;
     height: calc(100vh - 2rem - var(--header-height));
+    overflow: scroll;
 }
 
 /* ====== ボタン ====== */
@@ -154,6 +155,7 @@ main {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    vertical-align: middle;
 }
 
 /* サイズバリエーション */
