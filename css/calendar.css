@@ -162,7 +162,7 @@ aside {
 
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: 15vh auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
@@ -225,7 +225,11 @@ aside {
 @media screen and (max-width: 768px) {
     main {
         grid-template-columns: 1fr;
+        height: auto;
+
     }
+
+
 
     aside {
         overflow-y: inherit;
@@ -235,6 +239,15 @@ aside {
     #calendar-container {
         overflow: scroll;
         min-width: inherit;
+        font-size: xx-small;
     }
 
+    .calendar-year,
+    .calendar-month {
+        display: inline;
+    }
+
+    .modal {
+        font-size: small;
+    }
 }
