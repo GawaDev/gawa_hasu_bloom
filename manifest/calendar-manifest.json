@@ -1,0 +1,20 @@
+{
+    "name": "Bloom Calendar",
+    "short_name": "BloomCal",
+    "start_url": "./calendar.html",
+    "display": "standalone",
+    "background_color": "#FFE7EA",
+    "theme_color": "#FF6591",
+    "icons": [
+        {
+            "src": "../assets/calendar/apple-touch-icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "../assets/calendar/favicon.ico",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
