@@ -35,12 +35,12 @@ def add_onsite_events(new_event, repeat_until=None, repeat_interval_weeks=1):
 if __name__ == "__main__":
     # 新しいイベントの情報
     new_event = {
-        "date": "2025-04-21",
-        "start_time": "20:30",
+        "date": "2025-04-30",
+        "start_time": "00:00",
         "end_time": "",
         "content_codes": ["hasunosora"],
-        "name": "With×MEETS(姫芽)",
-        "location_code": ["link_like_lovelive"],
+        "name": "105期 OPENING!Fes×LIVE 応援上映 劇場チケット販売開始(Web,劇場)",
+        "location_code": [""],
         "websites": [""],
     }
 

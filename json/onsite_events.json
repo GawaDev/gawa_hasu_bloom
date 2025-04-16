@@ -7981,48 +7981,6 @@
     },
     {
         "date": "2025-04-14",
-        "start_time": "18:00",
-        "end_time": "",
-        "content_codes": [
-            "tsukine"
-        ],
-        "name": "YATTEKURUセット事前抽選販売 受付開始",
-        "location_code": "",
-        "websites": [
-            "https://t.livepocket.jp/e/tsukine_goods",
-            "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002141"
-        ]
-    },
-    {
-        "date": "2025-04-18",
-        "start_time": "23:59",
-        "end_time": "",
-        "content_codes": [
-            "tsukine"
-        ],
-        "name": "YATTEKURUセット事前抽選販売 受付終了",
-        "location_code": "",
-        "websites": [
-            "https://t.livepocket.jp/e/tsukine_goods",
-            "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002141"
-        ]
-    },
-    {
-        "date": "2025-04-19",
-        "start_time": "",
-        "end_time": "",
-        "content_codes": [
-            "tsukine"
-        ],
-        "name": "YATTEKURUセット事前抽選販売 当落",
-        "location_code": "",
-        "websites": [
-            "https://t.livepocket.jp/e/tsukine_goods",
-            "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002141"
-        ]
-    },
-    {
-        "date": "2025-04-14",
         "start_time": "",
         "end_time": "23:59",
         "content_codes": [
@@ -8049,6 +8007,20 @@
         ],
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-04-14",
+        "start_time": "18:00",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "YATTEKURUセット事前抽選販売 受付開始",
+        "location_code": "",
+        "websites": [
+            "https://t.livepocket.jp/e/tsukine_goods",
+            "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002141"
         ]
     },
     {
@@ -8176,19 +8148,6 @@
         ]
     },
     {
-        "date": "2025-04-30",
-        "start_time": "21:55",
-        "end_time": "",
-        "content_codes": [
-            "miyake"
-        ],
-        "name": "アニメ「全力ウサギ」シーズン２ #16(4週目)（ウサミ 役）千葉テレビ21:55他",
-        "location_code": "",
-        "websites": [
-            ""
-        ]
-    },
-    {
         "date": "2025-04-15",
         "start_time": "13:00",
         "end_time": "",
@@ -8225,21 +8184,6 @@
             "nonaka"
         ],
         "name": "野中ここなのREC中！ #23",
-        "location_code": [
-            "niconico_ch_plus"
-        ],
-        "websites": [
-            ""
-        ]
-    },
-    {
-        "date": "2025-05-20",
-        "start_time": "20:00",
-        "end_time": "",
-        "content_codes": [
-            "nonaka"
-        ],
-        "name": "野中ここなのREC中！ #24",
         "location_code": [
             "niconico_ch_plus"
         ],
@@ -8307,6 +8251,21 @@
         ],
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-04-16",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "105期 OPENING!Fes×LIVE 応援上映 抽選申込開始",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://w.pia.jp/t/link-like-lovelive/"
         ]
     },
     {
@@ -8455,6 +8414,34 @@
         "websites": [
             "https://ch.nicovideo.jp/voicegarage",
             "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025-04-18",
+        "start_time": "23:59",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "YATTEKURUセット事前抽選販売 受付終了",
+        "location_code": "",
+        "websites": [
+            "https://t.livepocket.jp/e/tsukine_goods",
+            "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002141"
+        ]
+    },
+    {
+        "date": "2025-04-19",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "YATTEKURUセット事前抽選販売 当落",
+        "location_code": "",
+        "websites": [
+            "https://t.livepocket.jp/e/tsukine_goods",
+            "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002141"
         ]
     },
     {
@@ -8742,6 +8729,21 @@
         ]
     },
     {
+        "date": "2025-04-24",
+        "start_time": "",
+        "end_time": "23:59",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "105期 OPENING!Fes×LIVE 応援上映 抽選申込終了",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://w.pia.jp/t/link-like-lovelive/"
+        ]
+    },
+    {
         "date": "2025-04-25",
         "start_time": "",
         "end_time": "",
@@ -8797,6 +8799,21 @@
         ],
         "websites": [
             "https://factory.dmm.com/event/lovelive_hasunosora_kagayuzen_2/"
+        ]
+    },
+    {
+        "date": "2025-04-25",
+        "start_time": "18:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "105期 OPENING!Fes×LIVE 応援上映 抽選当落",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://w.pia.jp/t/link-like-lovelive/"
         ]
     },
     {
@@ -8889,6 +8906,21 @@
         ],
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-04-26",
+        "start_time": "10:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "105期 OPENING!Fes×LIVE 応援上映 一般販売開始",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://w.pia.jp/t/link-like-lovelive/"
         ]
     },
     {
@@ -9117,6 +9149,21 @@
     },
     {
         "date": "2025-04-29",
+        "start_time": "",
+        "end_time": "16:00",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "105期 OPENING!Fes×LIVE 応援上映 一般販売終了",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://w.pia.jp/t/link-like-lovelive/"
+        ]
+    },
+    {
+        "date": "2025-04-29",
         "start_time": "04:00",
         "end_time": "04:30",
         "content_codes": [
@@ -9255,6 +9302,21 @@
     },
     {
         "date": "2025-04-30",
+        "start_time": "00:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "105期 OPENING!Fes×LIVE 応援上映 劇場チケット販売開始(Web,劇場)",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-30",
         "start_time": "20:00",
         "end_time": "",
         "content_codes": [
@@ -9265,6 +9327,19 @@
             "link_like_lovelive",
             "various_theaters"
         ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-30",
+        "start_time": "21:55",
+        "end_time": "",
+        "content_codes": [
+            "miyake"
+        ],
+        "name": "アニメ「全力ウサギ」シーズン２ #16(4週目)（ウサミ 役）千葉テレビ21:55他",
+        "location_code": "",
         "websites": [
             ""
         ]
@@ -10127,6 +10202,21 @@
     },
     {
         "date": "2025-05-20",
+        "start_time": "20:00",
+        "end_time": "",
+        "content_codes": [
+            "nonaka"
+        ],
+        "name": "野中ここなのREC中！ #24",
+        "location_code": [
+            "niconico_ch_plus"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-05-20",
         "start_time": "21:55",
         "end_time": "22:00",
         "content_codes": [
@@ -10168,6 +10258,21 @@
         ],
         "websites": [
             "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025-05-22",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "ラブカ GiGO コラボカフェ 花帆バースデーカード配布 (カフェ:秋葉原3号館, スタンド:各店)",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://cafe.gge-collabo.com/top/ll-cardgame.html"
         ]
     },
     {
@@ -11026,6 +11131,21 @@
         ]
     },
     {
+        "date": "2025-06-14",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "ラブカ GiGO コラボカフェ「蓮ノ空・μ’s」開始 (カフェ:秋葉原3号館, スタンド:各店)",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://cafe.gge-collabo.com/top/ll-cardgame.html"
+        ]
+    },
+    {
         "date": "2025-06-15",
         "start_time": "",
         "end_time": "",
@@ -11311,6 +11431,21 @@
         ],
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-06-29",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "ラブカ GiGO コラボカフェ「蓮ノ空・μ’s」終了 (カフェ:秋葉原3号館, スタンド:各店)",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://cafe.gge-collabo.com/top/ll-cardgame.html"
         ]
     },
     {
