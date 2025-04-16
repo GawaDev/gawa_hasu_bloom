@@ -237,7 +237,7 @@ aside {
     #calendar-container {
         overflow: scroll;
         min-width: inherit;
-        font-size: xx-small;
+        font-size: x-small;
     }
 
     .calendar-year,
