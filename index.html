@@ -5,22 +5,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bloom Apps</title>
+    <!-- スタイル -->
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/apps.css" />
-
+    <!-- OGP / Twitterカード -->
     <meta property="og:title" content="Bloom Apps" />
     <meta property="og:description" content="蓮ノ空とキャスト関連のデータを見るウェブアプリ。" />
     <meta property="og:image" content="https://bloom-apps.vercel.app/assets/apps/og-image.png" />
     <meta property="og:url" content="https://bloom-apps.vercel.app/apps/" />
     <meta property="og:type" content="website" />
-
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Bloom Apps" />
     <meta name="twitter:description" content="蓮ノ空とキャスト関連のデータを見るウェブアプリ。" />
     <meta name="twitter:image" content="https://bloom-apps.vercel.app/assets/apps/og-image.png" />
-
+    <!-- アイコン -->
     <link rel="icon" href="assets/apps/favicon.ico" />
     <link rel="apple-touch-icon" href="assets/apps/apple-touch-icon.png" />
+
+    <script>
+        window.currentApp = "apps";
+    </script>
 </head>
 
 <body>
@@ -32,7 +36,7 @@
             <div class="app-launcher">
                 <span class="material-icons">apps</span>
                 <div class="app-menu-grid">
-                    <a href="index.html" class="app-grid-item app-grid-main app-grid-current" data-app="apps">
+                    <a href="index.html" class="app-grid-item app-grid-main" data-app="apps">
                         <img src="assets/common/icon-apps.png" alt="Apps" />
                         <span>Apps</span>
                     </a>
@@ -59,23 +63,69 @@
 
     <!-- メイン -->
     <main>
-        <h1>ようこそ、BloomAppsへ</h1>
+        <h1>ようこそ、Bloom Appsへ</h1>
         <p>このページは、BloomApps 共通UIスタイルを活用したサンプルページです。</p>
 
-        <div>
+        <!-- ボタン -->
+        <section>
             <button class="button primary">プライマリボタン</button>
             <button class="button secondary">セカンダリボタン</button>
-        </div>
+        </section>
 
+        <!-- カード -->
         <div class="card">
             <h2>カードコンポーネント</h2>
             <p>このコンポーネントは、共通スタイルで美しく整えられています。</p>
+        </div>
+
+        <!-- 複数のレイヤーパネル -->
+        <div class="layer-panel collapsible-panel" id="group-a">
+            <button class="panel-toggle-button" onclick="togglePanel(this)">Group A 表示切替</button>
+            <div class="collapsible-content">
+                <div class="panel-title">レイヤーグループ A</div>
+                <div class="layer-toggle-buttons">
+                    <button class="button secondary"
+                        onclick="toggleAllLayers(document.getElementById('group-a'), true)">全選択</button>
+                    <button class="button secondary"
+                        onclick="toggleAllLayers(document.getElementById('group-a'), false)">全解除</button>
+                </div>
+                <div class="layer-checkboxes"></div>
+            </div>
+        </div>
+
+        <div class="layer-panel collapsible-panel" id="group-b">
+            <button class="panel-toggle-button" onclick="togglePanel(this)">Group B 表示切替</button>
+            <div class="collapsible-content">
+                <div class="panel-title">レイヤーグループ B</div>
+                <div class="layer-toggle-buttons">
+                    <button class="button secondary"
+                        onclick="toggleAllLayers(document.getElementById('group-b'), true)">全選択</button>
+                    <button class="button secondary"
+                        onclick="toggleAllLayers(document.getElementById('group-b'), false)">全解除</button>
+                </div>
+                <div class="layer-checkboxes"></div>
+            </div>
         </div>
     </main>
 
     <!-- スクリプト -->
     <script src="js/common.js"></script>
     <script src="js/apps.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const groupA = {
+                "a1": { name: "A-レイヤー1", color: "#FF6591" },
+                "a2": { name: "A-レイヤー2", color: "#FFB6C1" }
+            };
+            const groupB = {
+                "b1": { name: "B-レイヤー1", color: "#7C7AE0" },
+                "b2": { name: "B-レイヤー2", color: "#B0AEEE" }
+            };
+
+            buildLayerPanel("group-a", groupA);
+            buildLayerPanel("group-b", groupB);
+        });
+    </script>
 </body>
 
 </html>
