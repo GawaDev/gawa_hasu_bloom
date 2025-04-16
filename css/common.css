@@ -7,11 +7,21 @@
 
 :root {
     --primary-color: #FF6591;
+    --primary-hover: #ff497d;
+    --primary-light: #FFB6C1;
+    --primary-light-hover: #ffa3b6;
+
     --secondary-color: #7C7AE0;
+    --secondary-hover: #6b69d9;
+    --secondary-light: #B0AEEE;
+    --secondary-light-hover: #9f99e0;
+
     --background-gradient-left: #FEF5F1;
     --background-gradient-right: #FFE7EA;
+
     --header-height: 64px;
 }
+
 
 /* ====== ベース ====== */
 body {
@@ -135,7 +145,7 @@ main {
     height: calc(100vh - 2rem - var(--header-height));
 }
 
-/* ====== ボタン共通 ====== */
+/* ====== ボタン ====== */
 .button {
     padding: 0.5rem 1rem;
     border-radius: 8px;
@@ -145,22 +155,51 @@ main {
     transition: background-color 0.2s ease;
 }
 
+/* サイズバリエーション */
+.button.small {
+    font-size: 0.85rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+}
+
+/* カラー：プライマリ */
 .button.primary {
     background-color: var(--primary-color);
     color: white;
 }
 
+.button.primary:hover {
+    background-color: var(--primary-hover);
+}
+
+/* カラー：セカンダリ */
 .button.secondary {
     background-color: var(--secondary-color);
     color: white;
 }
 
-.button.primary:hover {
-    background-color: #ff497d;
+.button.secondary:hover {
+    background-color: var(--secondary-hover);
 }
 
-.button.secondary:hover {
-    background-color: #6b69d9;
+/* カラー：プライマリライト */
+.button.primary-light {
+    background-color: var(--primary-light);
+    color: white;
+}
+
+.button.primary-light:hover {
+    background-color: var(--primary-light-hover);
+}
+
+/* カラー：セカンダリライト */
+.button.secondary-light {
+    background-color: var(--secondary-light);
+    color: white;
+}
+
+.button.secondary-light:hover {
+    background-color: var(--secondary-light-hover);
 }
 
 /* ====== カード共通 ====== */
@@ -247,9 +286,9 @@ main {
     background-color: var(--secondary-color);
     color: white;
     border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border-radius: 8px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.85rem;
+    border-radius: 6px;
     margin-bottom: 0.5rem;
     cursor: pointer;
     transition: background-color 0.2s ease;

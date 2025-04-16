@@ -68,8 +68,18 @@
 
         <!-- ボタン -->
         <section>
-            <button class="button primary">プライマリボタン</button>
-            <button class="button secondary">セカンダリボタン</button>
+            <!-- 通常ボタン -->
+            <button class="button primary">Primary</button>
+            <button class="button secondary">Secondary</button>
+            <button class="button primary-light">Primary Light</button>
+            <button class="button secondary-light">Secondary Light</button>
+
+            <!-- 小さいボタン -->
+            <button class="button primary small">Primary Small</button>
+            <button class="button secondary small">Secondary Small</button>
+            <button class="button primary-light small">Primary Light Small</button>
+            <button class="button secondary-light small">Secondary Light Small</button>
+
         </section>
 
         <!-- カード -->
@@ -84,9 +94,9 @@
             <div class="collapsible-content">
                 <div class="panel-title">レイヤーグループ A</div>
                 <div class="layer-toggle-buttons">
-                    <button class="button secondary"
+                    <button class="button secondary small"
                         onclick="toggleAllLayers(document.getElementById('group-a'), true)">全選択</button>
-                    <button class="button secondary"
+                    <button class="button secondary small"
                         onclick="toggleAllLayers(document.getElementById('group-a'), false)">全解除</button>
                 </div>
                 <div class="layer-checkboxes"></div>
@@ -98,9 +108,9 @@
             <div class="collapsible-content">
                 <div class="panel-title">レイヤーグループ B</div>
                 <div class="layer-toggle-buttons">
-                    <button class="button secondary"
+                    <button class="button secondary small"
                         onclick="toggleAllLayers(document.getElementById('group-b'), true)">全選択</button>
-                    <button class="button secondary"
+                    <button class="button secondary small"
                         onclick="toggleAllLayers(document.getElementById('group-b'), false)">全解除</button>
                 </div>
                 <div class="layer-checkboxes"></div>
