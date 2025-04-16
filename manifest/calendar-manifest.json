@@ -1,7 +1,7 @@
 {
     "name": "Bloom Calendar",
     "short_name": "BloomCal",
-    "start_url": "./calendar.html",
+    "start_url": "../calendar.html",
     "display": "fullscreen",
     "background_color": "#FFE7EA",
     "theme_color": "#FF6591",
