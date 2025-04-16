@@ -129,6 +129,12 @@ body {
     border-radius: 8px;
 }
 
+/* ====== メインエリア共通 ====== */
+main {
+    padding: 1rem;
+    height: calc(100vh - 2rem - var(--header-height));
+}
+
 /* ====== ボタン共通 ====== */
 .button {
     padding: 0.5rem 1rem;

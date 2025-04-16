@@ -4,8 +4,6 @@ main {
     display: grid;
     grid-template-columns: 225px 1fr;
     gap: 1rem;
-    padding: 1rem;
-    height: calc(100vh - 2rem - var(--header-height));
 }
 
 aside {
@@ -226,7 +224,6 @@ aside {
     main {
         grid-template-columns: 1fr;
         height: auto;
-
     }
 
     aside {
