@@ -221,29 +221,30 @@ main {
     background-color: white;
     border-right: 2px solid var(--primary-color);
     padding: 1rem;
-    margin-top: 1rem;
+    margin: .5rem 0;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
     position: sticky;
     height: fit-content;
     align-self: flex-start;
     box-sizing: border-box;
+    text-align: left;
 }
 
 .panel-title {
     font-size: .85rem;
     font-weight: bold;
-    margin-bottom: .5rem;
+    margin-bottom: .25rem;
 }
 
 .layer-group {
-    padding: .25em 0 .5em 0;
+    padding-bottom: .25em;
 }
 
 .layer-name {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 0.5em;
+    margin: 0.5em 0;
 }
 
 .layer-toggle-buttons {
@@ -289,10 +290,10 @@ main {
     background-color: var(--secondary-color);
     color: white;
     border: none;
+    margin: .25rem 0;
     padding: 0.25rem 0.75rem;
     font-size: 0.85rem;
     border-radius: 6px;
-    margin-bottom: 0.5rem;
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
@@ -327,7 +328,6 @@ main {
 
     .collapsible-panel {
         border-bottom: 2px solid var(--primary-color);
-        padding-bottom: 0;
     }
 
     .collapsible-panel.collapsed .collapsible-content {
