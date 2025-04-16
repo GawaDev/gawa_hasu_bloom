@@ -5,6 +5,7 @@ const urlsToCache = [
     "./css/common.css",
     "./css/apps.css",
     "./css/calendar.css",
+    "./js/common.js",
     "./js/apps.js",
     "./js/calendar.js",
     "./manifest.json",
