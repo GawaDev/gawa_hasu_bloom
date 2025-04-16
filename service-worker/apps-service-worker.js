@@ -1,19 +1,13 @@
-const CACHE_NAME = "bloom-calendar-cache-v1";
+const CACHE_NAME = "bloom-apps-cache-v1";
 const urlsToCache = [
-    "./calendar.html",
+    "./index.html",
     "./css/common.css",
-    "./css/calendar.css",
-    "./js/calendar.js",
-    "./manifest/calendar-manifest.json",
-    "./assets/calendar/favicon.ico",
-    "./assets/calendar/apple-touch-icon.png",
-    "./assets/common/icon-calendar.png",
-    "./json/onsite_events.json",
-    "./json/streaming_events.json",
-    "./json/contents.json",
-    "./json/locations.json",
-    "./json/holidays.json",
-    "./json/persons.json"
+    "./css/apps.css",
+    "./js/apps.js",
+    "./manifest/apps-manifest.json",
+    "./assets/apps/favicon.ico",
+    "./assets/apps/apple-touch-icon.png",
+    "./assets/common/icon-apps.png",
 ];
 
 self.addEventListener("install", event => {
@@ -35,7 +29,7 @@ self.addEventListener("fetch", event => {
         caches.match(event.request).then(response => {
             return response || fetch(event.request);
         }).catch(() => {
-            return caches.match("./calendar.html");
+            return caches.match("./index.html");
         })
     );
 });

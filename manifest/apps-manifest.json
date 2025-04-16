@@ -1,0 +1,20 @@
+{
+    "name": "Bloom Apps",
+    "short_name": "BloomApps",
+    "start_url": "../index.html",
+    "display": "fullscreen",
+    "background_color": "#FFE7EA",
+    "theme_color": "#FF6591",
+    "icons": [
+        {
+            "src": "../assets/apps/apple-touch-icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "../assets/apps/favicon.ico",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
