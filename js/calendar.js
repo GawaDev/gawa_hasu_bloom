@@ -158,7 +158,6 @@ function createCalendar(year, month) {
 
         calendar.appendChild(cell);
     }
-    updateWCOMonthLabel(year, month);
 }
 
 function createEventDiv(ev) {
@@ -220,38 +219,4 @@ window.addEventListener("click", (e) => {
     if (e.target === document.getElementById("modal")) {
         document.getElementById("modal").style.display = "none";
     }
-});
-
-function updateWCOMonthLabel(year, month) {
-    const label = document.getElementById('wco-month-label');
-    if (label) label.textContent = `${year}年 ${month + 1}月`;
-}
-
-if ('windowControlsOverlay' in navigator) {
-    navigator.windowControlsOverlay.addEventListener('geometrychange', () => {
-        const bar = document.getElementById('wco-bar');
-        if (bar) {
-            bar.hidden = !navigator.windowControlsOverlay.visible;
-        }
-    });
-}
-
-document.getElementById('wco-prev-month')?.addEventListener('click', () => {
-    if (currentMonth === 0) {
-        currentMonth = 11;
-        currentYear--;
-    } else {
-        currentMonth--;
-    }
-    updateCalendar();
-});
-
-document.getElementById('wco-next-month')?.addEventListener('click', () => {
-    if (currentMonth === 11) {
-        currentMonth = 0;
-        currentYear++;
-    } else {
-        currentMonth++;
-    }
-    updateCalendar();
 });

@@ -1,42 +1,4 @@
 /* style.css - Bloom Calendar 専用スタイル（common.css と併用） */
-
-/* WCO */
-.wco-bar {
-    position: fixed;
-    top: env(titlebar-area-y, 0);
-    left: env(titlebar-area-x, 0);
-    width: env(titlebar-area-width, 100%);
-    height: env(titlebar-area-height, 40px);
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2000;
-    pointer-events: none;
-}
-
-.wco-month-control {
-    background-color: white;
-    border-radius: 999px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    padding: 0.25em 1em;
-    display: flex;
-    gap: 1em;
-    align-items: center;
-    pointer-events: auto;
-}
-
-.wco-month-control button {
-    border: none;
-    background-color: var(--primary-color);
-    color: white;
-    font-weight: bold;
-    padding: 0.3em 0.8em;
-    border-radius: 1em;
-    cursor: pointer;
-}
-
-/* ページ */
 main {
     display: grid;
     grid-template-columns: 225px 1fr;
