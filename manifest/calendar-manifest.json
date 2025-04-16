@@ -3,6 +3,9 @@
     "short_name": "BloomCal",
     "start_url": "../calendar.html",
     "display": "fullscreen",
+    "display_override": [
+        "window-controls-overlay"
+    ],
     "background_color": "#FFE7EA",
     "theme_color": "#FF6591",
     "icons": [
