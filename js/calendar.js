@@ -173,7 +173,13 @@ function createEventDiv(ev) {
         ? ev.location_code.map(c => locations[c]?.name).filter(Boolean).join(', ')
         : locations[ev.location_code]?.name || '';
 
-    const time = ev.start_time && ev.end_time ? `${ev.start_time} - ${ev.end_time}` : ev.start_time || ev.end_time || '';
+    const time = ev.start_time && ev.end_time
+        ? `${ev.start_time} - ${ev.end_time}`
+        : ev.start_time
+            ? `${ev.start_time} -`
+            : ev.end_time
+                ? `- ${ev.end_time}`
+                : '';
 
     div.innerHTML = `
     ${time ? `<span class="event-time">${time}</span>` : ''}

@@ -8285,6 +8285,36 @@
     },
     {
         "date": "2025-04-16",
+        "start_time": "19:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "リンクラ公式ショップオープン",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://www.linklikeshop.com/"
+        ]
+    },
+    {
+        "date": "2025-04-16",
+        "start_time": "19:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "リンクラ公式ショップ 102期生卒業記念グッズセット 〜いつでも、いつまでも〜 予約受付開始(-5/1)",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://www.linklikeshop.com/"
+        ]
+    },
+    {
+        "date": "2025-04-16",
         "start_time": "21:55",
         "end_time": "22:00",
         "content_codes": [
@@ -9401,6 +9431,21 @@
         ],
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-05-01",
+        "start_time": "",
+        "end_time": "23:59",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "リンクラ公式ショップ 102期生卒業記念グッズセット 〜いつでも、いつまでも〜 予約受付終了",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://www.linklikeshop.com/"
         ]
     },
     {
@@ -11156,6 +11201,21 @@
         "location_code": "tokyo_unknown",
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-06-15",
+        "start_time": "",
+        "end_time": "23:59",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "6月中～下旬 リンクラ公式ショップ 102期生卒業記念グッズセット 〜いつでも、いつまでも〜 発送",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://www.linklikeshop.com/"
         ]
     },
     {

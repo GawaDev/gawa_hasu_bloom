@@ -35,13 +35,13 @@ def add_onsite_events(new_event, repeat_until=None, repeat_interval_weeks=1):
 if __name__ == "__main__":
     # 新しいイベントの情報
     new_event = {
-        "date": "2025-04-30",
-        "start_time": "00:00",
-        "end_time": "",
+        "date": "2025-06-15",
+        "start_time": "",
+        "end_time": "23:59",
         "content_codes": ["hasunosora"],
-        "name": "105期 OPENING!Fes×LIVE 応援上映 劇場チケット販売開始(Web,劇場)",
+        "name": "6月中～下旬 リンクラ公式ショップ 102期生卒業記念グッズセット 〜いつでも、いつまでも〜 発送",
         "location_code": [""],
-        "websites": [""],
+        "websites": ["https://www.linklikeshop.com/"],
     }
 
     # 単発イベント
