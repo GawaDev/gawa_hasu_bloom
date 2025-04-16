@@ -18,7 +18,7 @@ aside {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 10px;
-    min-width: 1000px;
+    min-width: 1250px;
 }
 
 .calendar-controls {
