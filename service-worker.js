@@ -4,7 +4,7 @@ const urlsToCache = [
     "./css/common.css",
     "./css/apps.css",
     "./js/apps.js",
-    "./manifest/apps-manifest.json",
+    "./manifest.json",
     "./assets/apps/favicon.ico",
     "./assets/apps/apple-touch-icon.png",
     "./assets/common/icon-apps.png",

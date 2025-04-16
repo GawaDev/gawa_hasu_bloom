@@ -22,7 +22,7 @@
     <link rel="icon" href="assets/apps/favicon.ico" />
     <link rel="apple-touch-icon" href="assets/apps/apple-touch-icon.png" />
     <!-- マニフェスト -->
-    <link rel="manifest" href="manifest/apps-manifest.json" />
+    <link rel="manifest" href="manifest.json" />
     <meta name="theme-color" content="#FF6591" />
 
     <script>
@@ -30,7 +30,7 @@
 
         if ("serviceWorker" in navigator) {
             window.addEventListener("load", function () {
-                navigator.serviceWorker.register("service-worker/apps-service-worker.js")
+                navigator.serviceWorker.register("service-worker.js")
                     .then(function (registration) {
                         console.log("ServiceWorker registration successful with scope: ", registration.scope);
                     })
@@ -80,11 +80,11 @@
     <!-- メイン -->
     <main>
         <h1>ようこそ、Bloom Appsへ</h1>
-        <p>このページは、BloomApps 共通UIスタイルを活用したサンプルページです。</p>
+        <!-- <p>このページは、BloomApps 共通UIスタイルを活用したサンプルページです。</p> -->
 
         <!-- アプリ一覧：各アプリへの入り口 -->
         <section class="apps-grid-section">
-            <h2>アプリ一覧</h2>
+            <h2>アプリを開く</h2>
             <div class="apps-grid">
                 <a href="database.html" class="app-card">
                     <img src="assets/common/icon-database.png" alt="Database">
