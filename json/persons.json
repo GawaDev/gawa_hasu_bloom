@@ -1,0 +1,380 @@
+[
+    {
+        "name": "日野下花帆",
+        "name_reading": "ひのしたかほ",
+        "name_en": "Hinoshita Kaho",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "長野県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
+        "birth_year": 2007,
+        "birth_month": 5,
+        "birth_day": 22,
+        "color": "#ecb542",
+        "description": [
+            {
+                "version": "2024",
+                "text": "蓮ノ空女学院の2年生。笑顔がまぶしい明るい性格で、楽しそうなことにはいつも全力で一直線。スクールアイドルとして“花咲く”こと、そしていつか100万人とライブをすることを目標にしている。実家は長野で花卉農家を営み、小学生の双子の妹がいる。"
+            },
+            {
+                "version": "2025",
+                "text": "蓮ノ空女学院の3年生。ダブル部長のひとり。笑顔がまぶしい明るい性格で、楽しそうなことにはいつも全力で一直線。スクールアイドルとして“花咲く”こと、そしてたくさんの人を花咲かせるステージを作ることを目標にしている。実家は長野で花卉農家を営み、小学生の双子の妹がいる。"
+            }
+        ]
+    },
+    {
+        "name": "村野さやか",
+        "name_reading": "むらのさやか",
+        "name_en": "Murano Sayaka",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
+        "birth_year": 2008,
+        "birth_month": 1,
+        "birth_day": 13,
+        "color": "#639ad1",
+        "description": [
+            {
+                "version": "2024",
+                "text": "蓮ノ空女学院の2年生。幼い頃からフィギュアスケートをやっており、アスリートとしての一面も持つ。真面目な性格ゆえに他人を放っておけず、ついつい世話を焼いてしまうしっかり者だが、一転して天然なところも。料理が得意で、よく綴理のお世話をしている。"
+            },
+            {
+                "version": "2024",
+                "text": "蓮ノ空女学院の3年生。ダブル部長のひとり。幼い頃からフィギュアスケートをやっており、アスリートとしての一面も持つ。真面目な性格ゆえに他人を放っておけず、ついつい世話を焼いてしまうしっかり者だが、一転して天然なところも。料理が得意で、よく寮のキッチンを借りている。"
+            }
+        ]
+    },
+    {
+        "name": "乙宗梢",
+        "name_reading": "おとむねこずえ",
+        "name_en": "Otomune Kozue",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 102期",
+        "birth_year": 2006,
+        "birth_month": 6,
+        "birth_day": 15,
+        "color": "#68be8d",
+        "description": [
+            {
+                "version": "2024",
+                "text": "蓮ノ空女学院の3年生。文武両道、眉目秀麗。音楽一家に生まれ、小さいころから様々な習い事をしている才女。スクールアイドルクラブの部長として、みんなで「ラブライブ！」優勝することを目指している。機械が苦手だったが、最近は…？"
+            },
+            {
+                "version": "graduated",
+                "text": "蓮ノ空女学院の102期生。文武両道、眉目秀麗。音楽一家に生まれ、小さいころから様々な習い事をしている才女。スクールアイドルクラブの部長として、夢だった『ラブライブ！優勝』を成し遂げた。多くの出会いを経て、あまり好きではなかった自分をようやく認めてあげられるようになった。"
+            }
+        ]
+    },
+    {
+        "name": "夕霧綴理",
+        "name_reading": "ゆうぎりつづり",
+        "name_en": "Yugiri Tsuzuri",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 102期",
+        "birth_year": 2006,
+        "birth_month": 11,
+        "birth_day": 17,
+        "color": "#c8504d",
+        "description": "蓮ノ空女学院の3年生。周囲からは天才と称されるほどのパフォーマーである一方、マイペースな性格で、独特なワードセンスを持ち、寂しがりやで人懐っこいところもある。言葉にするのは苦手だが、スクールアイドルに対する強い想いを持っている。"
+    },
+    {
+        "name": "藤島慈",
+        "name_reading": "ふじしまめぐみ",
+        "name_en": "Fujishima Megumi",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 102期",
+        "birth_year": 2006,
+        "birth_month": 12,
+        "birth_day": 20,
+        "color": "#b8b6b9",
+        "description": "蓮ノ空女学院の3年生。小さい頃からタレント活動をしており、自分の可愛さを自覚している。「みらくらぱーく！」で世界中を夢中にさせるため、今日も可愛く見られるための努力を惜しまない。一方で興味のないことは一切やらないため、勉強は壊滅的。"
+    },
+    {
+        "name": "大沢瑠璃乃",
+        "name_reading": "おおさわるりの",
+        "name_en": "Osawa Rurino",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 103期",
+        "birth_year": 2007,
+        "birth_month": 8,
+        "birth_day": 31,
+        "color": "#e78cb7",
+        "description": "蓮ノ空女学院の2年生。1年生の時に留学先のカリフォルニアから編入した帰国子女。周囲を明るくする元気な性格だが、気を遣いすぎるがゆえ、体力を使い切ると“充電切れ”の状態になってしまうことも。慈とは小学校の頃からの幼馴染であり、相棒。"
+    },
+    {
+        "name": "百生吟子",
+        "name_reading": "ももせぎんこ",
+        "name_en": "Momose Ginko",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "石川県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 104期",
+        "birth_year": 2008,
+        "birth_month": 10,
+        "birth_day": 20,
+        "color": "#99d2d0",
+        "description": "蓮ノ空女学院の1年生。実家は加賀繍の工房を営んでおり、伝統を愛する女の子。祖母がクラブの前身である「芸楽部」に所属していたため、その伝統を受け継いだスクールアイドルになることを夢みている。花帆に対して、素直になれない一面も？"
+    },
+    {
+        "name": "徒町小鈴",
+        "name_reading": "かちまちこすず",
+        "name_en": "Kachimachi Kosuzu",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "福井県",
+        "affiliation": "蓮ノ空女学院スクールアイドルクラブ 104期",
+        "birth_year": 2009,
+        "birth_month": 2,
+        "birth_day": 28,
+        "color": "#f5d968",
+        "description": "蓮ノ空女学院の1年生。敦賀の漁師家系の末っ子。「自分に誇れるなにか」を見つけるために、色々なことに挑戦しているチャレンジガール。失敗してもへこたれない頑張り屋さんだが、たまに自分を下に見る発言も。気合入れの合言葉は「ちぇすとー！」"
+    },
+    {
+        "name": "安養寺姫芽",
+        "name_reading": "あんようじひめ",
+        "name_en": "Anyoji Hime",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "福井県",
+        "affiliation_history": [
+            {
+                "start": "2024-04",
+                "end": "2026-03",
+                "affiliation": "蓮ノ空女学院スクールアイドルクラブ 104期"
+            }
+        ],
+        "birth_year": 2008,
+        "birth_month": 9,
+        "birth_day": 24,
+        "color": "#a38be7",
+        "description": "蓮ノ空女学院の1年生。生粋のゲーマーであり、学生大会で優勝した経歴を持つ。「みらくらぱーく！」と出会い、自分の大好きな「ゲームを広めたい」という目標を見つけ、スクールアイドルクラブへ入部する。ゲーム配信のストリーマー「ツマヨウ寺」でもある。"
+    },
+    {
+        "name": "セラス柳田リリエンフェルト",
+        "name_reading": "せらすやなぎだりりえんふぇると",
+        "name_en": "Ceras Yanagida Lilienfeld",
+        "nicknames": [
+            "せっちゃん"
+        ],
+        "hometown": "長野県",
+        "affiliation_history": [
+            {
+                "start": "2024-04",
+                "end": "2025-03",
+                "affiliation": "瑞河女子高等学校附属中学校"
+            }
+        ],
+        "birth_year": 2007,
+        "birth_month": 6,
+        "birth_day": 26,
+        "color": "#f56455",
+        "description": ""
+    },
+    {
+        "name": "桂城泉",
+        "name_reading": "かつらぎいずみ",
+        "name_en": "Katsuragi Izumi",
+        "nicknames": [
+            ""
+        ],
+        "hometown": "東京都",
+        "affiliation": "瑞河女子高等学校スクールアイドル部",
+        "birth_year": 2006,
+        "birth_month": 12,
+        "birth_day": 1,
+        "color": "#1ebecd",
+        "description": ""
+    },
+    {
+        "name": "楡井希実",
+        "name_reading": "にれいのぞみ",
+        "name_en": "Nirei Nozomi",
+        "nicknames": [
+            "のんちゅけ",
+            "ちゅけ",
+            "のんちゃん"
+        ],
+        "hometown": "東京都",
+        "affiliation": "ホーリーピーク",
+        "birth_year": 2001,
+        "birth_month": 5,
+        "birth_day": 21,
+        "color": "#ecb542",
+        "description": "日野下花帆役"
+    },
+    {
+        "name": "野中ここな",
+        "name_reading": "のなかここな",
+        "name_en": "Nonaka Kokona",
+        "nicknames": [
+            "なっす",
+            "なすちゃん",
+            "ここなっす"
+        ],
+        "hometown": "長崎県",
+        "affiliation": "アミューズ",
+        "birth_year": 2006,
+        "birth_month": 1,
+        "birth_day": 28,
+        "color": "#639ad1",
+        "description": "村野さやか役"
+    },
+    {
+        "name": "花宮初奈",
+        "name_reading": "はなみやにいな",
+        "name_en": "Hanamiya Niina",
+        "nicknames": [
+            "ういさま",
+            "ういちゃん",
+            "ういさん"
+        ],
+        "hometown": "大阪府",
+        "affiliation": "青二プロダクション",
+        "birth_year": 2000,
+        "birth_month": 10,
+        "birth_day": 24,
+        "color": "#68be8d",
+        "description": "乙宗梢役"
+    },
+    {
+        "name": "佐々木琴子",
+        "name_reading": "ささきことこ",
+        "name_en": "Sasaki Kotoko",
+        "nicknames": [
+            "こっちゃん"
+        ],
+        "hometown": "埼玉県",
+        "affiliation": "スタイルキューブ",
+        "birth_year": 1998,
+        "birth_month": 8,
+        "birth_day": 28,
+        "color": "#c8504d",
+        "description": "夕霧綴理役"
+    },
+    {
+        "name": "月音こな",
+        "name_reading": "つきねこな",
+        "name_en": "Tsukine Kona",
+        "nicknames": [
+            "こなち",
+            "こなこな"
+        ],
+        "hometown": "神奈川県",
+        "affiliation": "Apollo Bay",
+        "birth_year": 2003,
+        "birth_month": 8,
+        "birth_day": 20,
+        "color": "#b8b6b9",
+        "description": "藤島慈役"
+    },
+    {
+        "name": "菅叶和",
+        "name_reading": "かんかんな",
+        "name_en": "Kan Kanna",
+        "nicknames": [
+            "かんかん",
+            "かんちゃん"
+        ],
+        "hometown": "東京都",
+        "affiliation": "俳協",
+        "birth_year": 2001,
+        "birth_month": 11,
+        "birth_day": 19,
+        "color": "#e78cb7",
+        "description": "大沢瑠璃乃役"
+    },
+    {
+        "name": "櫻井陽菜",
+        "name_reading": "さくらいひな",
+        "name_en": "Sakurai Hina",
+        "nicknames": [
+            "ひーちゃん"
+        ],
+        "hometown": "石川県金沢市",
+        "affiliation": "リンク・プラン",
+        "birth_year": 2000,
+        "birth_month": 9,
+        "birth_day": 17,
+        "color": "#99d2d0",
+        "description": "百生吟子役"
+    },
+    {
+        "name": "葉山風花",
+        "name_reading": "はやまふうか",
+        "name_en": "Hayama Fuka",
+        "nicknames": [
+            "ふーちゃん"
+        ],
+        "hometown": "大阪府",
+        "affiliation": "ホーリーピーク",
+        "birth_year": "",
+        "birth_month": 1,
+        "birth_day": 28,
+        "color": "#f5d968",
+        "description": "徒町小鈴役"
+    },
+    {
+        "name": "来栖りん",
+        "name_reading": "くるすりん",
+        "name_en": "Kurusu Rin",
+        "nicknames": [
+            "りんりん",
+            "りんちゃん"
+        ],
+        "hometown": "東京都",
+        "affiliation": "バンダイナムコミュージックライブ（StarRise）",
+        "birth_year": 2000,
+        "birth_month": 11,
+        "birth_day": 8,
+        "color": "#a38be7",
+        "description": "安養寺姫芽役"
+    },
+    {
+        "name": "三宅美羽",
+        "name_reading": "みやけみう",
+        "name_en": "Miyake Miu",
+        "nicknames": [
+            "みーちゃん"
+        ],
+        "hometown": "東京都",
+        "affiliation": "アットプロダクション",
+        "birth_year": 2001,
+        "birth_month": 12,
+        "birth_day": 14,
+        "color": "#79F9F9",
+        "description": "セラス柳田リリエンフェルト役"
+    },
+    {
+        "name": "進藤あまね",
+        "name_reading": "しんどうあまね",
+        "name_en": "Shindo Amane",
+        "nicknames": [
+            "あまねす"
+        ],
+        "hometown": "愛知県",
+        "affiliation": "響",
+        "birth_year": 2004,
+        "birth_month": 4,
+        "birth_day": 20,
+        "color": "#EB684E",
+        "description": "桂城泉役"
+    }
+]

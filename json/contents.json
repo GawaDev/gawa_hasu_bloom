@@ -1,0 +1,162 @@
+{
+    "hasunosora": {
+        "name": "蓮ノ空",
+        "color": "#fb8a9b",
+        "persons": [
+            "hinoshita",
+            "murano",
+            "otomune",
+            "yugiri",
+            "osawa",
+            "fujishima",
+            "momose",
+            "kachimachi",
+            "anyoji",
+            "nirei",
+            "nonaka",
+            "hanamiya",
+            "sasaki",
+            "kan",
+            "tsukine",
+            "sakurai",
+            "hayama",
+            "kurusu"
+        ],
+        "websites": [
+            "https://www.lovelive-anime.jp/hasunosora/",
+            "https://x.com/hasunosora_SIC"
+        ]
+    },
+    "hanamiya": {
+        "name": "花宮初奈",
+        "color": "#68be8d",
+        "persons": [
+            "hanamiya"
+        ],
+        "websites": [
+            "https://x.com/hanamiya_nina",
+            "https://www.aoni.co.jp/search/hanamiya-niina.html"
+        ]
+    },
+    "sasaki": {
+        "name": "佐々木琴子",
+        "color": "#c8504b",
+        "persons": [
+            "sasaki"
+        ],
+        "websites": [
+            "https://x.com/ssk_ktk828",
+            "https://www.instagram.com/sasaki_kotoko828/",
+            "https://www.youtube.com/@sasaki_kotoko",
+            "https://stylecube.jp/talents/kotoko/index.html"
+        ]
+    },
+    "tsukine": {
+        "name": "月音こな",
+        "color": "#b8b6b9",
+        "persons": [
+            "tsukine"
+        ],
+        "websites": [
+            "https://x.com/KonaTsukine",
+            "https://www.tiktok.com/@tuknekona",
+            "https://www.youtube.com/@tsukinekonaofficial/featured",
+            "https://apollobay.jp/talent/%E6%9C%88%E9%9F%B3%E3%81%93%E3%81%AA/"
+        ]
+    },
+    "nirei": {
+        "name": "楡井希実",
+        "color": "#ecb542",
+        "persons": [
+            "nirei"
+        ],
+        "websites": [
+            "https://x.com/NozomiNirei",
+            "https://holypeak.com/talent/voice-actor-women/%E6%A5%A1%E4%BA%95-%E5%B8%8C%E5%AE%9F/"
+        ]
+    },
+    "nonaka": {
+        "name": "野中ここな",
+        "color": "#639ad1",
+        "persons": [
+            "nonaka"
+        ],
+        "websites": [
+            "https://x.com/cocona_nonaka",
+            "https://www.amuse.co.jp/artist/A8878/index.html",
+            "https://amuseplus.jp/mob/arti/artiShw.php?site=A&cd=A8878&_ga=2.94542364.1059034829.1725110488-316278567.1724853721"
+        ]
+    },
+    "kan": {
+        "name": "菅叶和",
+        "color": "#e78cb7",
+        "persons": [
+            "kan"
+        ],
+        "websites": [
+            "https://x.com/kannkannna",
+            "https://haikyo.co.jp/profile/profile.php?ActorID=13093"
+        ]
+    },
+    "sakurai": {
+        "name": "櫻井陽菜",
+        "color": "#99d2d0",
+        "persons": [
+            "sakurai"
+        ],
+        "websites": [
+            "https://x.com/sakuraihi_na",
+            "http://link-plan.net/talent_sakurai.html"
+        ]
+    },
+    "hayama": {
+        "name": "葉山風花",
+        "color": "#f5d968",
+        "persons": [
+            "hayama"
+        ],
+        "websites": [
+            "https://x.com/Hayama_Fuka",
+            "https://holypeak.com/talent/voice-actor-women/%E8%91%89%E5%B1%B1-%E9%A2%A8%E8%8A%B1/"
+        ]
+    },
+    "kurusu": {
+        "name": "来栖りん",
+        "color": "#a38be7",
+        "persons": [
+            "kurusu"
+        ],
+        "websites": [
+            "https://x.com/kurusurindesu",
+            "https://www.instagram.com/ringring_rin/",
+            "https://www.youtube.com/@kurusu_rin",
+            "https://kurusurin.jp/",
+            "https://kurusurin-fc.com/",
+            "https://starrise.info/artists/kurusurin/"
+        ]
+    },
+    "miyake": {
+        "name": "三宅美羽",
+        "color": "#f56455",
+        "persons": [
+            "miyake"
+        ],
+        "websites": [
+            "https://x.com/_mmiya_mm",
+            "https://www.instagram.com/miyake_miu_/",
+            "https://www.at-production.jp/talent/miyake-miu/"
+        ]
+    },
+    "shindo": {
+        "name": "進藤あまね",
+        "color": "#1ebecd",
+        "persons": [
+            "shindo"
+        ],
+        "websites": [
+            "https://x.com/amane_bushi",
+            "https://www.instagram.com/amane_shindo_official/",
+            "https://hibiki-cast.jp/hibiki_f/shindou_amane/"
+        ]
+    }
+}

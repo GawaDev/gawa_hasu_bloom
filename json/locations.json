@@ -1,0 +1,915 @@
+{
+    "hulic_hall_tokyo": {
+        "name": "ヒューリックホール東京",
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "nearest_station": "有楽町",
+        "capacity": 944,
+        "show_map": true,
+        "websites": [
+            "https://hulic-theater.com/"
+        ]
+    },
+    "saitama_super_arena": {
+        "name": "さいたまスーパーアリーナ",
+        "prefecture": "埼玉県",
+        "city": "さいたま市",
+        "nearest_station": "さいたま新都心",
+        "capacity": 37000,
+        "show_map": true,
+        "websites": [
+            "https://www.saitama-arena.co.jp/arena/"
+        ]
+    },
+    "asaka_sta_east": {
+        "name": "朝霞駅東口",
+        "prefecture": "埼玉県",
+        "city": "朝霞市",
+        "nearest_station": "朝霞",
+        "capacity": "",
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "tokorozawa_sakura_town": {
+        "name": "ところざわサクラタウン(ジャパンパビリオンホールA シーティング)",
+        "prefecture": "埼玉県",
+        "city": "所沢市",
+        "nearest_station": "東所沢",
+        "capacity": 650,
+        "show_map": true,
+        "websites": [
+            "https://tokorozawa-sakuratown.com/japanpavilion.html"
+        ]
+    },
+    "congre_square_nihonbashi": {
+        "name": "コングレスクエア日本橋(ホールA・B)",
+        "prefecture": "東京都",
+        "city": "中央区",
+        "nearest_station": "日本橋",
+        "capacity": 400,
+        "show_map": true,
+        "websites": [
+            "https://congres-square.jp/nihonbashi/"
+        ]
+    },
+    "zepp_haneda": {
+        "name": "Zepp Haneda",
+        "prefecture": "東京都",
+        "city": "大田区",
+        "nearest_station": "天空橋",
+        "capacity": 2925,
+        "show_map": true,
+        "websites": [
+            "https://www.zepp.co.jp/hall/haneda/"
+        ]
+    },
+    "tachikawa_stage_garden": {
+        "name": "立川ステージガーデン",
+        "prefecture": "東京都",
+        "city": "立川市",
+        "nearest_station": "立川",
+        "capacity": 2500,
+        "show_map": true,
+        "websites": [
+            "https://www.t-sg.jp/"
+        ]
+    },
+    "ryogoku_kokugikan": {
+        "name": "両国国技館",
+        "prefecture": "東京都",
+        "city": "墨田区",
+        "nearest_station": "両国",
+        "capacity": 11098,
+        "show_map": true,
+        "websites": [
+            "https://www.sumo.or.jp/Kokugikan/"
+        ]
+    },
+    "shinjyukumura_live": {
+        "name": "新宿村LIVE",
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "nearest_station": "西新宿",
+        "capacity": 228,
+        "show_map": true,
+        "websites": [
+            "https://www.shinjukumura-live.com/"
+        ]
+    },
+    "seinenkan_hall": {
+        "name": "日本青年館ホール",
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "nearest_station": "外苑前",
+        "capacity": 1249,
+        "show_map": true,
+        "websites": [
+            "https://seinenkan-hall.com/"
+        ]
+    },
+    "shibuya_public_hall": {
+        "name": "LINE CUBE SHIBUYA（渋谷公会堂）",
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "nearest_station": "渋谷",
+        "capacity": 1956,
+        "show_map": true,
+        "websites": [
+            "https://linecubeshibuya.com/"
+        ]
+    },
+    "yokohama_arena": {
+        "name": "横浜アリーナ(メインアリーナ)",
+        "prefecture": "神奈川県",
+        "city": "横浜市",
+        "nearest_station": "新横浜",
+        "capacity": 17000,
+        "show_map": true,
+        "websites": [
+            "https://www.yokohama-arena.co.jp/"
+        ]
+    },
+    "k_arena_yokohama": {
+        "name": "Kアリーナ横浜",
+        "prefecture": "神奈川県",
+        "city": "横浜市",
+        "nearest_station": "新高島",
+        "capacity": 20033,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "nagoya_convention_center": {
+        "name": "名古屋国際会議場（センチュリーホール）",
+        "prefecture": "愛知県",
+        "city": "名古屋市",
+        "nearest_station": "日比野",
+        "capacity": 3000,
+        "show_map": true,
+        "websites": [
+            "https://www.nagoya-congress-center.jp/"
+        ]
+    },
+    "kanazawa_station_dome": {
+        "name": "金沢駅もてなしドーム地下広場",
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "nearest_station": "金沢",
+        "capacity": "",
+        "show_map": true,
+        "websites": [
+            "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/dorokanrika/gyomuannai/2/1/6818.html"
+        ]
+    },
+    "ishikawa_prefecture_music_hall": {
+        "name": "石川県立音楽堂",
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "nearest_station": "金沢",
+        "capacity": 1560,
+        "show_map": true,
+        "websites": [
+            "https://www.ongakudo.pref.ishikawa.jp/"
+        ]
+    },
+    "kanazawa_stadium": {
+        "name": "金沢ゴーゴーカレースタジアム",
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "nearest_station": "東金沢",
+        "capacity": "10444",
+        "show_map": true,
+        "websites": [
+            "https://www.kanazawa-stadium.jp/"
+        ]
+    },
+    "shinkabukiza": {
+        "name": "新歌舞伎座",
+        "prefecture": "大阪府",
+        "city": "大阪市",
+        "nearest_station": "大阪上本町",
+        "capacity": 1501,
+        "show_map": true,
+        "websites": [
+            "https://www.shinkabukiza.co.jp/"
+        ]
+    },
+    "orix_theater": {
+        "name": "オリックス劇場",
+        "prefecture": "大阪府",
+        "city": "大阪市",
+        "nearest_station": "四ツ橋",
+        "capacity": 2400,
+        "show_map": true,
+        "websites": [
+            "https://www.orixtheater.jp/"
+        ]
+    },
+    "shanghai_national_exhibition_center": {
+        "name": "国家会展中心（上海）虹馆EH (National Exhibition and Convention Center)",
+        "prefecture": "中華人民共和国：上海市",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 8000,
+        "show_map": true,
+        "websites": [
+            "https://www.neccsh.com/cecsh/exhibition/venue.jspx"
+        ]
+    },
+    "tokyo_unknown": {
+        "name": "東京都内某所",
+        "prefecture": "東京都",
+        "city": "",
+        "nearest_station": "",
+        "capacity": "",
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "various_theaters": {
+        "name": "全国の劇場",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": "",
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "niconico": {
+        "name": "ニコニコ動画",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "tiktok": {
+        "name": "TikTok",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "audee": {
+        "name": "AuDee",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "agqr": {
+        "name": "文化放送超A&G+",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "youtube": {
+        "name": "YouTube",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "niconico_ch_plus": {
+        "name": "ニコニコチャンネル＋",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "hibiki_radio_station": {
+        "name": "響ラジオステーション",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "link_like_lovelive": {
+        "name": "Link!Like!ラブライブ!",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "zepp_osaka_bayside": {
+        "name": "Zepp Osaka Bayside",
+        "prefecture": "大阪府",
+        "city": "大阪市",
+        "nearest_station": "桜島",
+        "capacity": 2801,
+        "show_map": true,
+        "websites": [
+            "https://www.zepp.co.jp/hall/osakabayside/"
+        ]
+    },
+    "nhk_fm": {
+        "name": "NHK-FM",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "qlover_hfhl": {
+        "name": "Qlover(葉山風花のHappy Lucky!ch)",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "qlover_ag": {
+        "name": "Qlover(超!A&G+ch)",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "joqr": {
+        "name": "文化放送(JOQR)/radiko",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "jouf": {
+        "name": "ラジオ大阪(JOUF)/radiko",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "aomi_nikufes": {
+        "name": "お台場・青海特設会場(肉フェス)",
+        "prefecture": "東京都",
+        "city": "江東区",
+        "nearest_station": "青海",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "toyosu_pit": {
+        "name": "豊洲PIT",
+        "prefecture": "東京都",
+        "city": "江東区",
+        "nearest_station": "新豊洲",
+        "capacity": 3103,
+        "show_map": true,
+        "websites": [
+            "https://toyosu.pia-pit.jp/"
+        ]
+    },
+    "hikosen_theater": {
+        "name": "飛行船シアター",
+        "prefecture": "東京都",
+        "city": "台東区",
+        "nearest_station": "上野",
+        "capacity": 508,
+        "show_map": true,
+        "websites": [
+            "https://hikosen-theater.com/"
+        ]
+    },
+    "bator_tokyo": {
+        "name": "BATUR TOKYO",
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "nearest_station": "東新宿",
+        "capacity": 320,
+        "show_map": true,
+        "websites": [
+            "https://www.pasela.co.jp/shinjuku-party/space/batur"
+        ]
+    },
+    "ginza_hakuhinkan": {
+        "name": "銀座博品館劇場",
+        "prefecture": "東京都",
+        "city": "中央区",
+        "nearest_station": "銀座",
+        "capacity": 395,
+        "show_map": true,
+        "websites": [
+            "https://www.hakuhinkan.co.jp/theater/"
+        ]
+    },
+    "gunma_kaikan": {
+        "name": "群馬会館",
+        "prefecture": "群馬県",
+        "city": "前橋市",
+        "nearest_station": "前橋",
+        "capacity": 410,
+        "show_map": true,
+        "websites": [
+            "https://www.pref.gunma.jp/page/1032.html"
+        ]
+    },
+    "takadanobaba_bs": {
+        "name": "高田馬場BSホール",
+        "prefecture": "東京都",
+        "city": "豊島区",
+        "nearest_station": "高田馬場",
+        "capacity": 150,
+        "show_map": true,
+        "websites": [
+            "https://www.tkb-bshall.com/"
+        ]
+    },
+    "_kr_kintex": {
+        "name": "KINTEX(大韓民国)",
+        "prefecture": "大韓民国京畿道",
+        "city": "高陽市",
+        "nearest_station": "Kintex",
+        "capacity": 150,
+        "show_map": true,
+        "websites": [
+            "https://www.tkb-bshall.com/"
+        ]
+    },
+    "rolling_cradle_shibuya": {
+        "name": "ROLLING CRADLE SHIBUYA",
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "nearest_station": "渋谷",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://shop.rollingcradle.com/"
+        ]
+    },
+    "atre_akihabara_1": {
+        "name": "アトレ秋葉原1",
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "nearest_station": "秋葉原",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://www.atre.co.jp/akihabara/"
+        ]
+    },
+    "ikebukuro_parco": {
+        "name": "池袋PARCO",
+        "prefecture": "東京都",
+        "city": "豊島区",
+        "nearest_station": "池袋",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "shosen_book_tower": {
+        "name": "書泉ブックタワー",
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "nearest_station": "秋葉原",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "aruaru_city": {
+        "name": "あるあるCity 7Fホール",
+        "prefecture": "福岡県",
+        "city": "北九州市",
+        "nearest_station": "小倉",
+        "capacity": 200,
+        "show_map": true,
+        "websites": [
+            "https://aruarucity.com/shop/?act=Detail&mode=View&s_id=00000026"
+        ]
+    },
+    "hmv_shibuya": {
+        "name": "HMV&BOOKS SHIBUYA 6Fイベントスペース",
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "nearest_station": "渋谷",
+        "capacity": 100,
+        "show_map": true,
+        "websites": [
+            "https://www.hmv.co.jp/store/BTK/"
+        ]
+    },
+    "natslive_cafe_omotesando": {
+        "name": "NATSLIVE CAFE 表参道",
+        "prefecture": "東京都",
+        "city": "港区",
+        "nearest_station": "表参道",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://cafe.natslive.jp/"
+        ]
+    },
+    "natslive": {
+        "name": "NATSLIVE",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "nissho_hall": {
+        "name": "ニッショーホール",
+        "prefecture": "東京都",
+        "city": "港区",
+        "nearest_station": "虎ノ門ヒルズ",
+        "capacity": 1000,
+        "show_map": true,
+        "websites": [
+            "http://nissho-hall.jp/"
+        ]
+    },
+    "makuhari_1_3": {
+        "name": "幕張メッセ 国際展示場 1～3ホール",
+        "prefecture": "千葉県",
+        "city": "千葉市",
+        "nearest_station": "海浜幕張",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://www.m-messe.co.jp/"
+        ]
+    },
+    "makuhari_4_6": {
+        "name": "幕張メッセ 国際展示場 4～6ホール",
+        "prefecture": "千葉県",
+        "city": "千葉市",
+        "nearest_station": "海浜幕張",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://www.m-messe.co.jp/"
+        ]
+    },
+    "makuhari_7_8": {
+        "name": "幕張メッセ 国際展示場 7～8ホール",
+        "prefecture": "千葉県",
+        "city": "千葉市",
+        "nearest_station": "海浜幕張",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://www.m-messe.co.jp/"
+        ]
+    },
+    "makuhari_1_8": {
+        "name": "幕張メッセ 国際展示場 1～8ホール",
+        "prefecture": "千葉県",
+        "city": "千葉市",
+        "nearest_station": "海浜幕張",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://www.m-messe.co.jp/"
+        ]
+    },
+    "makuhari_9_11": {
+        "name": "幕張メッセ 国際展示場 9～11ホール",
+        "prefecture": "千葉県",
+        "city": "千葉市",
+        "nearest_station": "海浜幕張",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://www.m-messe.co.jp/"
+        ]
+    },
+    "makuhari_eventhall": {
+        "name": "幕張メッセ 幕張イベントホール",
+        "prefecture": "千葉県",
+        "city": "千葉市",
+        "nearest_station": "海浜幕張",
+        "capacity": 9000,
+        "show_map": true,
+        "websites": [
+            "https://www.m-messe.co.jp/"
+        ]
+    },
+    "zozomarine": {
+        "name": "ZOZOマリンスタジアム",
+        "prefecture": "千葉県",
+        "city": "千葉市",
+        "nearest_station": "海浜幕張",
+        "capacity": 30118,
+        "show_map": true,
+        "websites": [
+            "https://www.marines.co.jp/stadium/"
+        ]
+    },
+    "laforet_harajuku": {
+        "name": "ラフォーレ原宿",
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "nearest_station": "明治神宮前",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://www.laforet.ne.jp/"
+        ]
+    },
+    "abeno_qs_mall": {
+        "name": "あべのキューズモール",
+        "prefecture": "大阪府",
+        "city": "大阪市",
+        "nearest_station": "天王寺",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://qs-mall.jp/abeno/"
+        ]
+    },
+    "hakata_bt": {
+        "name": "博多バスターミナル",
+        "prefecture": "福岡県",
+        "city": "福岡市",
+        "nearest_station": "博多",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "odaiba_gema": {
+        "name": "ODAIBAゲーマーズ",
+        "prefecture": "東京都",
+        "city": "港区",
+        "nearest_station": "お台場海浜公園",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "science_hall": {
+        "name": "科学技術館サイエンスホール",
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "nearest_station": "竹橋",
+        "capacity": 410,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "sunmall": {
+        "name": "シアターサンモール",
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "nearest_station": "新宿御苑前",
+        "capacity": 294,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "x": {
+        "name": "X",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "animax": {
+        "name": "animax",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "sendai_gema": {
+        "name": "ゲーマーズ仙台店",
+        "prefecture": "宮城県",
+        "city": "仙台市",
+        "nearest_station": "仙台",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "ishikawa_santen_4": {
+        "name": "石川県産業展示館(4号館)",
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "nearest_station": "西金沢",
+        "capacity": 7000,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "glion_arena_kobe": {
+        "name": "GLION ARENA KOBE",
+        "prefecture": "兵庫県",
+        "city": "神戸市",
+        "nearest_station": "ポートターミナル",
+        "capacity": 10000,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "hmv_ikebukuro": {
+        "name": "HMVエソラ池袋",
+        "prefecture": "東京都",
+        "city": "豊島区",
+        "nearest_station": "池袋",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            "https://www.hmv.co.jp/store/ike/"
+        ]
+    },
+    "tokyo_bigsight": {
+        "name": "東京ビッグサイト",
+        "prefecture": "東京都",
+        "city": "江東区",
+        "nearest_station": "東京ビッグサイト",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "akiba_square": {
+        "name": "AKIBA_SQUARE(アキバ・スクエア)",
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "nearest_station": "秋葉原",
+        "capacity": 800,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "akiba_gema": {
+        "name": "AKIHABARAゲーマーズ本店",
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "nearest_station": "秋葉原",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "namba_gema": {
+        "name": "ゲーマーズなんば店",
+        "prefecture": "大阪府",
+        "city": "大阪市",
+        "nearest_station": "なんば",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "kanazawa_gema": {
+        "name": "金沢ゲーマーズ",
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "nearest_station": "金沢",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "shibuya_take_off_7": {
+        "name": "SHIBUYA TAKE OFF 7",
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "nearest_station": "渋谷",
+        "capacity": 200,
+        "show_map": true,
+        "websites": [
+            "https://www.kox-radio.jp/takeoff7/"
+        ]
+    },
+    "akiba_cul_4f": {
+        "name": "AKIBAカルチャーズZONE4FCulZone",
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "nearest_station": "秋葉原",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "openrec_tv": {
+        "name": "OPENREC.tv",
+        "prefecture": "",
+        "city": "",
+        "nearest_station": "",
+        "capacity": 0,
+        "show_map": false,
+        "websites": [
+            ""
+        ]
+    },
+    "expo2025_matsuri": {
+        "name": "大阪・関西万博 フューチャーライフゾーン EXPOアリーナ「Matsuri」",
+        "prefecture": "大阪府",
+        "city": "大阪市",
+        "nearest_station": "夢洲",
+        "capacity": 10000,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
+    "ashitaka_stadium": {
+        "name": "愛鷹広域公園多目的競技場",
+        "prefecture": "静岡県",
+        "city": "沼津市",
+        "nearest_station": "沼津",
+        "capacity": 10000,
+        "show_map": true,
+        "websites": [
+            "https://shisetsu.mizuno.jp/m-7408"
+        ]
+    },
+    "kagayuzen_kaikan": {
+        "name": "加賀友禅会館",
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "nearest_station": "金沢",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    }
+}

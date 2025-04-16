@@ -1,0 +1,297 @@
+/* ==============================
+   共通スタイル - BloomServecies
+   ============================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=BIZ+UDGothic&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root {
+    --primary-color: #FF6591;
+    --secondary-color: #7C7AE0;
+    --background-gradient-left: #FEF5F1;
+    --background-gradient-right: #FFE7EA;
+    --header-height: 64px;
+}
+
+/* ====== ベース ====== */
+body {
+    margin: 0;
+    font-family: 'BIZ UDGothic', 'Akshar', 'Helvetica Neue', 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, var(--background-gradient-left), var(--background-gradient-right));
+    color: #333;
+}
+
+/* ====== ヘッダー共通 ====== */
+.header {
+    height: var(--header-height);
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* ====== アイコンランチャー（右上） ====== */
+.app-launcher {
+    cursor: pointer;
+    position: relative;
+}
+
+.material-icons {
+    font-size: 32px;
+    color: white;
+}
+
+/* ====== グリッド型アプリメニュー（右上ランチャー） ====== */
+.app-menu-grid {
+    position: absolute;
+    top: 48px;
+    right: 0;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    z-index: 1001;
+    min-width: 360px;
+}
+
+/* 各アプリボタン */
+.app-grid-item {
+    background-color: #fff;
+    border: 2px solid white;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75rem;
+    transition: all 0.2s ease;
+}
+
+.app-grid-item:hover {
+    background-color: #f9f9f9;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0 0 0 2px rgba(124, 122, 224, 0.2);
+}
+
+.app-grid-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+}
+
+/* 特別なAppsアイテム */
+.app-grid-main {
+    background: linear-gradient(to right, var(--background-gradient-left), var(--background-gradient-right));
+    background-color: pink;
+    color: var(--primary-color);
+}
+
+/* ====== 現在表示中アプリ用 ====== */
+.app-grid-current {
+    border: 2px solid var(--secondary-color);
+    position: relative;
+    box-shadow: 0 0 0 2px rgba(124, 122, 224, 0.2);
+}
+
+/* バッジ風表示 */
+.app-grid-current::after {
+    content: "表示中";
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 8px;
+}
+
+/* ====== ボタン共通 ====== */
+.button {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.button.secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.button.primary:hover {
+    background-color: #ff497d;
+}
+
+.button.secondary:hover {
+    background-color: #6b69d9;
+}
+
+/* ====== カード共通 ====== */
+.card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* ====== レイヤパネル共通 ====== */
+
+.layer-panel {
+    width: 100%;
+    background-color: white;
+    border-right: 2px solid var(--primary-color);
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    position: sticky;
+    height: fit-content;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+
+.panel-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.layer-group {
+    padding: .25em 0;
+}
+
+.layer-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.layer-toggle-buttons {
+    display: flex;
+    gap: 0.5em;
+    margin-bottom: 1rem;
+}
+
+.layer-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.layer-checkbox input[type="checkbox"] {
+    appearance: none;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 6px;
+    margin-right: 0.5rem;
+    position: relative;
+    background-color: white;
+    border: 2px solid currentColor;
+}
+
+.layer-checkbox input[type="checkbox"]:checked {
+    background-color: currentColor;
+}
+
+.layer-checkbox input[type="checkbox"]:checked::after {
+    font-family: "Material Icons";
+    content: '\e5ca';
+    color: white;
+    position: absolute;
+    top: 0;
+    font-size: 1.25em;
+}
+
+/* 開閉式パネルの切替ボタン */
+.panel-toggle-button {
+    display: none;
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 0.75em;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* 開閉対象 */
+.collapsible-content {
+    display: block;
+}
+
+
+/* ====== レスポンシブ対応 ====== */
+@media (max-width: 768px) {
+    .header .nav {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .layer-panel {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid var(--primary-color);
+        box-shadow: none;
+        border-radius: 0;
+        top: unset;
+        position: relative;
+    }
+
+    .panel-toggle-button {
+        display: block;
+    }
+
+    .collapsible-panel {
+        border-bottom: 2px solid var(--primary-color);
+        padding-bottom: 0;
+    }
+
+    .collapsible-panel.collapsed .collapsible-content {
+        display: none;
+    }
+
+    .collapsible-panel:not(.collapsed) .collapsible-content {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .app-menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+        min-width: 240px;
+    }
+}

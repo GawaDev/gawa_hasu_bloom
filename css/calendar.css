@@ -1,0 +1,240 @@
+/* style.css - Bloom Calendar 専用スタイル（common.css と併用） */
+
+main {
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    height: calc(100vh - 2rem - var(--header-height));
+}
+
+aside {
+    overflow-y: auto;
+}
+
+#calendar-container {
+    overflow-y: auto;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    min-width: 1000px;
+}
+
+.calendar-controls {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+#prev-month::before {
+    font-family: "Material Icons";
+    content: '\e314';
+}
+
+#next-month::after {
+    font-family: "Material Icons";
+    content: '\e315';
+}
+
+.calendar-date {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+.calendar-year {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.calendar-month {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.calendar-day,
+.calendar-weekday {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 7.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.calendar-weekday {
+    font-weight: bold;
+    text-align: center;
+}
+
+.calendar-weekday.saturday {
+    color: #007bff;
+    background-color: #b3d9ff;
+}
+
+.calendar-weekday.sunday {
+    color: #ff0000;
+    background-color: #ffcccc;
+}
+
+.calendar-day.saturday .date {
+    color: #007bff;
+}
+
+.calendar-day.sunday .date {
+    color: #ff0000;
+}
+
+.calendar-day.holiday .date {
+    color: #ff0000;
+}
+
+.calendar-day .date {
+    font-weight: bold;
+}
+
+.calendar-day.today {
+    background-color: #ffa500;
+}
+
+.calendar-day.empty {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.holiday-name {
+    font-size: 0.5em;
+    color: #ff0000;
+    margin-left: 3px;
+}
+
+.birthday {
+    font-size: .75em;
+    display: inline-block;
+}
+
+.event {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
+
+.event-time {
+    font-size: .75em;
+    line-height: 1.4;
+}
+
+.event-title {
+    font-size: 1em;
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+.event-location {
+    font-size: 0.5em;
+    line-height: 1.2;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+}
+
+.content-label {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+/* イベントモーダル */
+.modal-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.modal-table td {
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.modal-table .label {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.modal-table .value {
+    padding-left: 10px;
+    word-break: break-word;
+}
+
+.close-button {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+}
+
+/* ====== レスポンシブ対応 ====== */
+@media screen and (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        overflow-y: inherit;
+        max-height: 30%;
+    }
+
+    #calendar-container {
+        overflow: scroll;
+        min-width: inherit;
+    }
+
+}

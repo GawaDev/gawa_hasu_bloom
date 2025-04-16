@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "vscode-icons-team.vscode-icons",
+        "ms-python.debugpy",
+        "tamasfe.even-better-toml",
+        "ms-ceintl.vscode-language-pack-ja",
+        "charliermarsh.ruff",
+        "dotjoshjohnson.xml",
+        "mechatroner.rainbow-csv",
+        "ms-edgedevtools.vscode-edge-devtools",
+        "yzhang.markdown-all-in-one"
+    ]
+}
