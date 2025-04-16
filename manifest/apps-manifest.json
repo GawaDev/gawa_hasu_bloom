@@ -16,5 +16,62 @@
             "sizes": "512x512",
             "type": "image/png"
         }
+    ],
+    "shortcuts": [
+        {
+            "name": "Bloom Apps",
+            "short_name": "Apps",
+            "url": "../index.html",
+            "icons": [
+                {
+                    "src": "../assets/common/icon-calendar.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Bloom Database",
+            "short_name": "Database",
+            "url": "../database.html",
+            "icons": [
+                {
+                    "src": "../assets/common/icon-calendar.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Bloom Calendar",
+            "short_name": "Calendar",
+            "url": "../calendar.html",
+            "icons": [
+                {
+                    "src": "../assets/common/icon-calendar.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Bloom Maps",
+            "short_name": "Maps",
+            "url": "../maps.html",
+            "icons": [
+                {
+                    "src": "../assets/common/icon-calendar.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Bloom IME",
+            "short_name": "IME",
+            "url": "../ime.html",
+            "icons": [
+                {
+                    "src": "../assets/common/icon-calendar.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
     ]
 }
