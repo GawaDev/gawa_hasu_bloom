@@ -89,31 +89,31 @@
         </div>
 
         <!-- 複数のレイヤーパネル -->
-        <div class="layer-panel collapsible-panel" id="group-a">
-            <button class="panel-toggle-button" onclick="togglePanel(this)">Group A 表示切替</button>
+        <div class="layer-panel collapsible-panel collapsed">
+            <div class="panel-title">レイヤパネル</div>
+            <button class="panel-toggle-button" onclick="togglePanel(this)">レイヤパネル表示切替</button>
             <div class="collapsible-content">
-                <div class="panel-title">レイヤーグループ A</div>
-                <div class="layer-toggle-buttons">
-                    <button class="button secondary small"
-                        onclick="toggleAllLayers(document.getElementById('group-a'), true)">全選択</button>
-                    <button class="button secondary small"
-                        onclick="toggleAllLayers(document.getElementById('group-a'), false)">全解除</button>
+                <div class="layer-group" id="group-a">
+                    <div class="layer-name">レイヤグループ A</div>
+                    <div class="layer-toggle-buttons">
+                        <button class="button secondary small"
+                            onclick="toggleAllLayers(document.getElementById('group-a'), true)">全選択</button>
+                        <button class="button secondary small"
+                            onclick="toggleAllLayers(document.getElementById('group-a'), false)">全解除</button>
+                    </div>
+                    <div class="layer-checkboxes"></div>
                 </div>
-                <div class="layer-checkboxes"></div>
-            </div>
-        </div>
 
-        <div class="layer-panel collapsible-panel" id="group-b">
-            <button class="panel-toggle-button" onclick="togglePanel(this)">Group B 表示切替</button>
-            <div class="collapsible-content">
-                <div class="panel-title">レイヤーグループ B</div>
-                <div class="layer-toggle-buttons">
-                    <button class="button secondary small"
-                        onclick="toggleAllLayers(document.getElementById('group-b'), true)">全選択</button>
-                    <button class="button secondary small"
-                        onclick="toggleAllLayers(document.getElementById('group-b'), false)">全解除</button>
+                <div class="layer-group" id="group-b">
+                    <div class="layer-name">レイヤグループ B</div>
+                    <div class="layer-toggle-buttons">
+                        <button class="button secondary small"
+                            onclick="toggleAllLayers(document.getElementById('group-b'), true)">全選択</button>
+                        <button class="button secondary small"
+                            onclick="toggleAllLayers(document.getElementById('group-b'), false)">全解除</button>
+                    </div>
+                    <div class="layer-checkboxes"></div>
                 </div>
-                <div class="layer-checkboxes"></div>
             </div>
         </div>
     </main>
@@ -124,12 +124,12 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const groupA = {
-                "a1": { name: "A-レイヤー1", color: "#FF6591" },
-                "a2": { name: "A-レイヤー2", color: "#FFB6C1" }
+                "a1": { name: "A-レイヤ1", color: "#FF6591" },
+                "a2": { name: "A-レイヤ2", color: "#FFB6C1" }
             };
             const groupB = {
-                "b1": { name: "B-レイヤー1", color: "#7C7AE0" },
-                "b2": { name: "B-レイヤー2", color: "#B0AEEE" }
+                "b1": { name: "B-レイヤ1", color: "#7C7AE0" },
+                "b2": { name: "B-レイヤ2", color: "#B0AEEE" }
             };
 
             buildLayerPanel("group-a", groupA);
