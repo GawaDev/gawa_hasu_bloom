@@ -35,13 +35,13 @@ def add_onsite_events(new_event, repeat_until=None, repeat_interval_weeks=1):
 if __name__ == "__main__":
     # 新しいイベントの情報
     new_event = {
-        "date": "2025-06-15",
-        "start_time": "",
-        "end_time": "23:59",
+        "date": "2025-04-25",
+        "start_time": "16:00",
+        "end_time": "",
         "content_codes": ["hasunosora"],
-        "name": "6月中～下旬 リンクラ公式ショップ 102期生卒業記念グッズセット 〜いつでも、いつまでも〜 発送",
-        "location_code": [""],
-        "websites": ["https://www.linklikeshop.com/"],
+        "name": "4th石川DAY1座席発表",
+        "location_code": ["audee"],
+        "websites": [""],
     }
 
     # 単発イベント
