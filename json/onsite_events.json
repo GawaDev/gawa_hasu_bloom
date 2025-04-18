@@ -1770,19 +1770,6 @@
         ]
     },
     {
-        "date": "2025-04-18",
-        "start_time": "12:00",
-        "end_time": "",
-        "content_codes": [
-            "hasunosora"
-        ],
-        "name": "リンクラ活動記録105期第1話「Brand New Stories!!」更新",
-        "location_code": "link_like_lovelive",
-        "websites": [
-            ""
-        ]
-    },
-    {
         "date": "2025-01-19",
         "start_time": "12:00",
         "end_time": "",
@@ -8270,6 +8257,21 @@
     },
     {
         "date": "2025-04-16",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hanamiya"
+        ],
+        "name": "城姫クエスト レア築城ガチャ【御館[くノ一]】登場",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-16",
         "start_time": "04:00",
         "end_time": "",
         "content_codes": [
@@ -8376,6 +8378,21 @@
     },
     {
         "date": "2025-04-17",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "慈フィギュア予約〆",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-17",
         "start_time": "19:00",
         "end_time": "",
         "content_codes": [
@@ -8447,6 +8464,36 @@
     },
     {
         "date": "2025-04-18",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora "
+        ],
+        "name": "アトレ オフィシャルストア 展示終了",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-18",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "入学案内配布開始(アニメイト,ゲーマーズ)",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-18",
         "start_time": "07:00",
         "end_time": "",
         "content_codes": [
@@ -8458,6 +8505,19 @@
         ],
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2025-04-18",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "リンクラ活動記録105期第1話「Brand New Stories!!」更新",
+        "location_code": "link_like_lovelive",
+        "websites": [
+            ""
         ]
     },
     {
@@ -8537,12 +8597,27 @@
     },
     {
         "date": "2025-04-19",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "朗読劇 ネコたん！弐 ぷらす～猫町怪異奇譚～ 公式先行抽選申込開始",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://neko-tan.jp/"
+        ]
+    },
+    {
+        "date": "2025-04-19",
         "start_time": "14:00",
         "end_time": "",
         "content_codes": [
             "hasunosora"
         ],
-        "name": "With×MEETS(小鈴)",
+        "name": "With×MEETS(花帆[小鈴から変更(4/17発表)])",
         "location_code": [
             "link_like_lovelive"
         ],
@@ -8690,6 +8765,21 @@
     },
     {
         "date": "2025-04-21",
+        "start_time": "18:30",
+        "end_time": "",
+        "content_codes": [
+            "shindo"
+        ],
+        "name": "ひびきべや 生配信",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://t.co/EJT168PkdN"
+        ]
+    },
+    {
+        "date": "2025-04-21",
         "start_time": "19:00",
         "end_time": "",
         "content_codes": [
@@ -8831,6 +8921,21 @@
         ],
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-04-24",
+        "start_time": "21:30",
+        "end_time": "",
+        "content_codes": [
+            "shindo"
+        ],
+        "name": "「バンドリ！TV LIVE 2025」＃261",
+        "location_code": [
+            "youtube"
+        ],
+        "websites": [
+            "https://t.co/ZOLKHgn9JJ"
         ]
     },
     {
@@ -9227,6 +9332,21 @@
         ]
     },
     {
+        "date": "2025-04-27",
+        "start_time": "23:59",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "朗読劇 ネコたん！弐 ぷらす～猫町怪異奇譚～ 公式先行抽選申込終了",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://neko-tan.jp/"
+        ]
+    },
+    {
         "date": "2025-04-28",
         "start_time": "",
         "end_time": "",
@@ -9539,6 +9659,21 @@
         ]
     },
     {
+        "date": "2025-05-01",
+        "start_time": "15:00",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "朗読劇 ネコたん！弐 ぷらす～猫町怪異奇譚～ 公式先行抽選申込当落",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://neko-tan.jp/"
+        ]
+    },
+    {
         "date": "2025-05-02",
         "start_time": "",
         "end_time": "",
@@ -9566,6 +9701,21 @@
         ],
         "websites": [
             "https://audee.jp/program/show/300007672"
+        ]
+    },
+    {
+        "date": "2025-05-02",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "朗読劇 ネコたん！弐 ぷらす～猫町怪異奇譚～ プレイガイド先行抽選申込開始",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://neko-tan.jp/"
         ]
     },
     {
@@ -9803,6 +9953,21 @@
         ],
         "websites": [
             "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025-05-08",
+        "start_time": "",
+        "end_time": "23:59",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "朗読劇 ネコたん！弐 ぷらす～猫町怪異奇譚～ プレイガイド先行抽選申込終了",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://neko-tan.jp/"
         ]
     },
     {
@@ -10180,6 +10345,21 @@
         "websites": [
             "https://ch.nicovideo.jp/voicegarage",
             "https://twitter.com/kanmegu_vg"
+        ]
+    },
+    {
+        "date": "2025-05-17",
+        "start_time": "10:00",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "朗読劇 ネコたん！弐 ぷらす～猫町怪異奇譚～ 一般発売開始",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://neko-tan.jp/"
         ]
     },
     {
@@ -11453,6 +11633,21 @@
         "location_code": "qlover_hfhl",
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-06-17",
+        "start_time": "19:00",
+        "end_time": "",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "朗読劇 ネコたん！弐 ぷらす～猫町怪異奇譚～(迷路ソマリ役)",
+        "location_code": [
+            "owlspot"
+        ],
+        "websites": [
+            "https://neko-tan.jp/"
         ]
     },
     {

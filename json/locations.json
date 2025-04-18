@@ -911,5 +911,16 @@
         "websites": [
             ""
         ]
+    },
+    "owlspot": {
+        "name": "あうるすぽっと(豊島区立舞台芸術交流センター)",
+        "prefecture": "東京都",
+        "city": "豊島区",
+        "nearest_station": "東池袋",
+        "capacity": 301,
+        "show_map": true,
+        "websites": [
+            "https://www.owlspot.jp/"
+        ]
     }
 }
