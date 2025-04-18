@@ -205,6 +205,58 @@ main {
     background-color: var(--secondary-light-hover);
 }
 
+/* ====== フォームコントロール：セレクトボックス ====== */
+select {
+    appearance: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 2px solid var(--secondary-color);
+    font-size: 1rem;
+    background-color: white;
+    color: #333;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><polygon points="6,9 12,15 18,9" fill="%237C7AE0"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1rem;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border-color: var(--secondary-hover);
+    box-shadow: 0 0 0 2px rgba(124, 122, 224, 0.2);
+}
+
+/* ====== テーブルスタイル ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: var(--secondary-light);
+    color: white;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+
 /* ====== カード共通 ====== */
 .card {
     background-color: white;

@@ -1,0 +1,58 @@
+[
+    {
+        "surface": "ラブライブ",
+        "reading": "らぶらいぶ",
+        "pos": "固有名詞",
+        "comment": "みんなで叶える物語。オールメディア展開するスクールアイドルプロジェクト。",
+        "group": 3,
+        "groupName": "一般"
+    },
+    {
+        "surface": "異次元フェス",
+        "reading": "いじげんふぇす",
+        "pos": "固有名詞",
+        "comment": "異次元のコラボレーションを実現する新しい音楽イベントシリーズ",
+        "group": 3,
+        "groupName": "一般"
+    },
+    {
+        "surface": "飯田ヒカル",
+        "reading": "いいだひかる",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院 びわこ 役",
+        "group": 12,
+        "groupName": "キャスト名／フルネーム"
+    },
+    {
+        "surface": "月音こな",
+        "reading": "かわいい",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 藤島慈 役",
+        "group": 12,
+        "groupName": "キャスト名／フルネーム"
+    },
+    {
+        "surface": "スリーズブーケ",
+        "reading": "すりーずぶーけ",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブのユニット",
+        "group": 17,
+        "groupName": "ユニット・アーティスト名"
+    },
+    {
+        "surface": "希望的プリズム",
+        "reading": "きぼうてきぷりずむ",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "スクステ",
+        "reading": "すくすて",
+        "pos": "短縮よみ",
+        "comment": "スクールアイドルステージ",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    }
+]

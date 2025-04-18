@@ -5,10 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bloom IME</title>
-    <!-- スタイル -->
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/ime.css" />
-    <!-- OGP / Twitterカード -->
     <meta property="og:title" content="Bloom IME" />
     <meta property="og:description" content="蓮ノ空とキャスト関連の語句のIME辞書を出力できます。" />
     <meta property="og:image" content="https://bloom-apps.vercel.app/assets/ime/og-image.png" />
@@ -18,55 +16,36 @@
     <meta name="twitter:title" content="Bloom IME" />
     <meta name="twitter:description" content="蓮ノ空とキャスト関連の語句のIME辞書を出力できます。" />
     <meta name="twitter:image" content="https://bloom-apps.vercel.app/assets/ime/og-image.png" />
-    <!-- アイコン -->
     <link rel="icon" href="assets/ime/favicon.ico" />
     <link rel="apple-touch-icon" href="assets/ime/apple-touch-icon.png" />
-    <!-- マニフェスト -->
     <link rel="manifest" href="manifest.json" />
     <meta name="theme-color" content="#FF6591" />
-
-    <script>
-        window.currentApp = "ime";
-
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", function () {
-                navigator.serviceWorker.register("service-worker.js")
-                    .then(function (registration) {
-                        console.log("ServiceWorker registration successful with scope: ", registration.scope);
-                    })
-                    .catch(function (error) {
-                        console.log("ServiceWorker registration failed: ", error);
-                    });
-            });
-        }
-    </script>
 </head>
 
 <body>
-    <!-- ヘッダー -->
     <header class="header">
         <div class="logo">Bloom IME</div>
         <div class="nav">
             <div class="app-launcher">
                 <span class="material-icons">apps</span>
                 <div class="app-menu-grid">
-                    <a href="index.html" class="app-grid-item app-grid-main" data-app="apps">
+                    <a href="index.html" class="app-grid-item app-grid-main">
                         <img src="assets/common/icon-apps.png" alt="Apps" />
                         <span>Apps</span>
                     </a>
-                    <a href="database.html" class="app-grid-item" data-app="database">
+                    <a href="database.html" class="app-grid-item">
                         <img src="assets/common/icon-database.png" alt="Database" />
                         <span>Database</span>
                     </a>
-                    <a href="calendar.html" class="app-grid-item app-grid-current" data-app="calendar">
+                    <a href="calendar.html" class="app-grid-item">
                         <img src="assets/common/icon-calendar.png" alt="Calendar" />
                         <span>Calendar</span>
                     </a>
-                    <a href="maps.html" class="app-grid-item" data-app="maps">
+                    <a href="maps.html" class="app-grid-item">
                         <img src="assets/common/icon-maps.png" alt="Maps" />
                         <span>Maps</span>
                     </a>
-                    <a href="ime.html" class="app-grid-item" data-app="ime">
+                    <a href="ime.html" class="app-grid-item app-grid-current">
                         <img src="assets/common/icon-ime.png" alt="IME" />
                         <span>IME</span>
                     </a>
@@ -78,97 +57,51 @@
     <main>
         <div class="container">
             <aside class="sidebar">
-                <div class="layer-panel collapsible-panel collapsed">
-                    <div class="panel-title">レイヤパネル</div>
-                    <button class="panel-toggle-button" onclick="togglePanel(this)">レイヤパネル表示切替</button>
-                    <div class="collapsible-content">
-                        <div class="layer-group" id="group-a">
-                            <div class="layer-name">レイヤグループ A</div>
-                            <div class="layer-toggle-buttons">
-                                <button class="button secondary small"
-                                    onclick="toggleAllLayers(document.getElementById('group-a'), true)">全選択</button>
-                                <button class="button secondary small"
-                                    onclick="toggleAllLayers(document.getElementById('group-a'), false)">全解除</button>
-                            </div>
-                            <div class="layer-checkboxes">
-                                <div><input type="checkbox" class="layer" value="cast" data-code="cast" checked> キャスト名
-                                </div>
-                                <div><input type="checkbox" class="layer" value="character" data-code="character"
-                                        checked> キャラクター名</div>
-                                <div><input type="checkbox" class="layer" value="unit" data-code="unit" checked> ユニット名
-                                </div>
-                            </div>
-                        </div>
+                <div class="output-settings">
+                    <label for="format">出力形式</label>
+                    <select id="format">
+                        <option value="skk">SKK辞書</option>
+                        <option value="msime">MS-IME</option>
+                        <option value="google">Google日本語入力</option>
+                    </select>
+                    <button class="button secondary" onclick="previewOutput()">プレビュー</button>
+                    <button class="button primary" onclick="downloadOutput()">出力</button>
+                </div>
 
-                        <div class="layer-group" id="group-b">
-                            <div class="layer-name">レイヤグループ B</div>
-                            <div class="layer-toggle-buttons">
-                                <button class="button secondary small"
-                                    onclick="toggleAllLayers(document.getElementById('group-b'), true)">全選択</button>
-                                <button class="button secondary small"
-                                    onclick="toggleAllLayers(document.getElementById('group-b'), false)">全解除</button>
-                            </div>
-                            <div class="layer-checkboxes">
-                                <div><input type="checkbox" class="layer" value="song" data-code="song" checked> 楽曲タイトル
-                                </div>
-                                <div><input type="checkbox" class="layer" value="tag" data-code="tag" checked> 関連用語
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="layer-panel">
+                    <div class="panel-title">フィルタ（レイヤ）</div>
+                    <div id="dynamic-layer-panel" class="layer-checkboxes"></div>
                 </div>
             </aside>
 
             <section class="main">
-                <h2>出力形式とダウンロード</h2>
-                <label for="format">形式：</label>
-                <select id="format">
-                    <option value="skk">SKK辞書</option>
-                    <option value="msime">MS-IME</option>
-                    <option value="google">Google日本語入力</option>
-                </select>
-                <button onclick="generateOutput()">出力</button>
+                <h2>語句一覧</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>語句</th>
+                            <th>よみ</th>
+                            <th>品詞</th>
+                            <th>コメント</th>
+                        </tr>
+                    </thead>
+                    <tbody id="word-list"></tbody>
+                </table>
+            </section>
+        </div>
+
+        <div id="preview-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-button" onclick="closeModal()">&times;</span>
                 <h3>出力プレビュー</h3>
                 <pre id="preview"></pre>
-            </section>
+            </div>
         </div>
     </main>
 
     <script src="js/common.js"></script>
     <script src="js/ime.js"></script>
-    <script>
-        const sampleData = {
-            cast: ["鈴木たかね\tたかね\t名詞"],
-            character: ["日野下花帆\tかほ\t名詞"],
-            unit: ["スリーズブーケ\tすりーずぶーけ\t名詞"],
-            song: ["Jump Into the New World\tじゃんぷいんとぅ\t楽曲"],
-            tag: ["蓮ノ空\tはすのそら\t名詞"]
-        };
-
-        function togglePanel(button) {
-            const panel = button.closest('.collapsible-panel');
-            panel.classList.toggle('collapsed');
-        }
-
-        function toggleAllLayers(group, state) {
-            group.querySelectorAll('.layer').forEach(cb => cb.checked = state);
-        }
-
-        function generateOutput() {
-            const format = document.getElementById('format').value;
-            const checked = Array.from(document.querySelectorAll('.layer:checked')).map(cb => cb.dataset.code);
-            let lines = [];
-            checked.forEach(layer => {
-                lines = lines.concat(sampleData[layer] || []);
-            });
-            if (format === 'msime') {
-                lines = lines.map(line => line.replace(/\t/g, ','));
-            } else if (format === 'google') {
-                lines = lines.map(line => line.replace(/\t/g, '\t') + '\t名詞');
-            }
-            document.getElementById('preview').textContent = lines.join('\n');
-        }
-    </script>
 </body>
 
 </html>
