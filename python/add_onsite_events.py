@@ -35,11 +35,11 @@ def add_onsite_events(new_event, repeat_until=None, repeat_interval_weeks=1):
 if __name__ == "__main__":
     # 新しいイベントの情報
     new_event = {
-        "date": "2025-04-16",
+        "date": "2025-05-06",
         "start_time": "",
-        "end_time": "",
-        "content_codes": ["hanamiya"],
-        "name": "城姫クエスト レア築城ガチャ【御館[くノ一]】登場",
+        "end_time": "23:59",
+        "content_codes": ["hasunosora"],
+        "name": "石川県の伝統工芸コラボグッズ受注・抽選販売 受付終了",
         "location_code": [""],
         "websites": [""],
     }

@@ -8514,8 +8514,53 @@
         "content_codes": [
             "hasunosora"
         ],
-        "name": "リンクラ活動記録105期第1話「Brand New Stories!!」更新",
+        "name": "リンクラ活動記録105期第1話「Brand New Stories!!」更新 PART1～5",
         "location_code": "link_like_lovelive",
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-18",
+        "start_time": "12:10",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "りんく！らいふ！ラブライブ！105期【第3話】 公開",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-18",
+        "start_time": "13:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "ロフトコラボ 通販開始",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-18",
+        "start_time": "13:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "もっと蓮ノ空！リンクラ新聞部 Vol.15 公開",
+        "location_code": [
+            ""
+        ],
         "websites": [
             ""
         ]
@@ -8533,6 +8578,21 @@
         ],
         "websites": [
             "https://factory.dmm.com/event/lovelive_hasunosora_kagayuzen_2/"
+        ]
+    },
+    {
+        "date": "2025-04-18",
+        "start_time": "18:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "石川県の伝統工芸コラボグッズ受注・抽選販売 受付開始",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            ""
         ]
     },
     {
@@ -9862,6 +9922,21 @@
         ],
         "name": "蓮4th神奈川DAY2二次〆",
         "location_code": "",
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-05-06",
+        "start_time": "",
+        "end_time": "23:59",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "石川県の伝統工芸コラボグッズ受注・抽選販売 受付終了",
+        "location_code": [
+            ""
+        ],
         "websites": [
             ""
         ]
