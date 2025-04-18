@@ -206,7 +206,7 @@ main {
 }
 
 /* ====== フォームコントロール：セレクトボックス ====== */
-select {
+.select {
     appearance: none;
     padding: 0.5rem 1rem;
     border-radius: 8px;
@@ -222,7 +222,7 @@ select {
     cursor: pointer;
 }
 
-select:focus {
+.select:focus {
     outline: none;
     border-color: var(--secondary-hover);
     box-shadow: 0 0 0 2px rgba(124, 122, 224, 0.2);

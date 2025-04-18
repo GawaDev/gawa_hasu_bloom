@@ -1,7 +1,7 @@
 // Ime Data
 // 自動生成されたレイヤグループのリストを抽出してパネルを構築するための形式
 
-const imeData = [];
+let imeData = [];
 
 // 読み込みと初期化
 window.addEventListener("DOMContentLoaded", async () => {
