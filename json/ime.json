@@ -8,10 +8,26 @@
         "groupName": "一般"
     },
     {
+        "surface": "異次元★♥BIGBANG",
+        "reading": "いじげんビッグバン",
+        "pos": "固有名詞",
+        "comment": "異次元フェス アイドルマスター★♥ラブライブ！歌合戦のテーマ楽曲",
+        "group": 3,
+        "groupName": "一般"
+    },
+    {
         "surface": "異次元フェス",
         "reading": "いじげんふぇす",
         "pos": "固有名詞",
-        "comment": "異次元のコラボレーションを実現する新しい音楽イベントシリーズ",
+        "comment": "2次元×音楽の世界で、異次元のコラボレーションを実現するために生まれた新しい音楽イベントシリーズ",
+        "group": 3,
+        "groupName": "一般"
+    },
+    {
+        "surface": "LoveLive！Days",
+        "reading": "らぶらいぶでいず",
+        "pos": "固有名詞",
+        "comment": "ラブライブ！がぎっしり詰まったオンリーワンの総合マガジン！",
         "group": 3,
         "groupName": "一般"
     },
@@ -21,7 +37,143 @@
         "pos": "人名",
         "comment": "蓮ノ空女学院 びわこ 役",
         "group": 12,
-        "groupName": "キャスト名／フルネーム"
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "前田玲奈",
+        "reading": "えな",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院 えな 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "小原好美",
+        "reading": "こはらこのみ",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 大賀美沙知 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "櫻井陽菜",
+        "reading": "さくらいひな",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 百生吟子 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "来栖りん",
+        "reading": "くるすりん",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 安養寺姫芽 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "月城莉奈",
+        "reading": "しいな",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院 しいな 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "進藤あまね",
+        "reading": "しんどうあまね",
+        "pos": "人名",
+        "comment": "瑞河女子高等学校スクールアイドル部 桂城泉 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "月城莉奈",
+        "reading": "つきしろりな",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院 しいな 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "月音こな",
+        "reading": "つきねこな",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 藤島慈 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "豊田萌絵",
+        "reading": "とよたもえ",
+        "pos": "人名",
+        "comment": "村野つかさ 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "楡井希実",
+        "reading": "にれいのぞみ",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 日野下花帆 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "野中ここな",
+        "reading": "のなかここな",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 村野さやか 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "花宮初奈",
+        "reading": "はなみやにいな",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 乙宗梢 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "葉山風花",
+        "reading": "はやまふうか",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 徒町小鈴 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "飯田ヒカル",
+        "reading": "びわこ",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院 びわこ 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "前田玲奈",
+        "reading": "まえだれいな",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院 えな 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "三宅美羽",
+        "reading": "みやけみう",
+        "pos": "人名",
+        "comment": "瑞河女子高等学校スクールアイドル部 セラス柳田リリエンフェルト 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "あまねす",
+        "reading": "あまねす",
+        "pos": "人名",
+        "comment": "進藤あまね",
+        "group": 15,
+        "groupName": "愛称"
     },
     {
         "surface": "月音こな",
@@ -29,7 +181,471 @@
         "pos": "人名",
         "comment": "蓮ノ空女学院スクールアイドルクラブ 藤島慈 役",
         "group": 12,
-        "groupName": "キャスト名／フルネーム"
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "ういさま",
+        "reading": "ういさま",
+        "pos": "人名",
+        "comment": "花宮初奈の愛称。初奈がういなとも読めることから。",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "佐々木琴子",
+        "reading": "ささきことこ",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 夕霧綴理 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "かんかん",
+        "reading": "かんかん",
+        "pos": "人名",
+        "comment": "菅叶和",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "ういうい",
+        "reading": "ういうい",
+        "pos": "人名",
+        "comment": "花宮初奈",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "ことこと",
+        "reading": "ことこと",
+        "pos": "人名",
+        "comment": "佐々木琴子",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "こなこな",
+        "reading": "こなこな",
+        "pos": "人名",
+        "comment": "月音こな",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "ラブライブ！",
+        "reading": "らぶらいぶ",
+        "pos": "固有名詞",
+        "comment": "女子高校生が学校で活動するアイドル・“スクールアイドル”を通して夢を叶えていく姿を描くプロジェクト。",
+        "group": 3,
+        "groupName": "一般"
+    },
+    {
+        "surface": "ちゅけ",
+        "reading": "ちゅけ",
+        "pos": "人名",
+        "comment": "楡井希実",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "なっす",
+        "reading": "なっす",
+        "pos": "人名",
+        "comment": "野中ここな",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "なっすちゃん",
+        "reading": "なっすちゃん",
+        "pos": "人名",
+        "comment": "野中ここな",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "のんちゃん",
+        "reading": "のんちゃん",
+        "pos": "人名",
+        "comment": "楡井希実",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "のんちゅけ",
+        "reading": "のんちゅけ",
+        "pos": "人名",
+        "comment": "楡井希実",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "ひーちゃん",
+        "reading": "ひーちゃん",
+        "pos": "人名",
+        "comment": "櫻井陽菜",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "ふうちゃん",
+        "reading": "ふうちゃん",
+        "pos": "人名",
+        "comment": "葉山風花",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "ふうふう",
+        "reading": "ふうふう",
+        "pos": "人名",
+        "comment": "葉山風花",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "こっちゃん",
+        "reading": "こっちゃん",
+        "pos": "人名",
+        "comment": "佐々木琴子",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "りんりん",
+        "reading": "りんりん",
+        "pos": "人名",
+        "comment": "来栖りん",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "ういちゃん",
+        "reading": "ういちゃん",
+        "pos": "人名",
+        "comment": "花宮初奈",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "叶和",
+        "reading": "かんな",
+        "pos": "人名",
+        "comment": "菅叶和",
+        "group": 14,
+        "groupName": "名"
+    },
+    {
+        "surface": "ここな",
+        "reading": "ここな",
+        "pos": "人名",
+        "comment": "野中ここな",
+        "group": 14,
+        "groupName": "名"
+    },
+    {
+        "surface": "琴子",
+        "reading": "ことこ",
+        "pos": "人名",
+        "comment": "佐々木琴子",
+        "group": 14,
+        "groupName": "名"
+    },
+    {
+        "surface": "こな",
+        "reading": "こな",
+        "pos": "人名",
+        "comment": "月音こな",
+        "group": 14,
+        "groupName": "名"
+    },
+    {
+        "surface": "初奈",
+        "reading": "にいな",
+        "pos": "人名",
+        "comment": "花宮初奈",
+        "group": 14,
+        "groupName": "名"
+    },
+    {
+        "surface": "希実",
+        "reading": "のぞみ",
+        "pos": "人名",
+        "comment": "楡井希実",
+        "group": 14,
+        "groupName": "名"
+    },
+    {
+        "surface": "陽菜",
+        "reading": "ひな",
+        "pos": "人名",
+        "comment": "櫻井陽菜",
+        "group": 14,
+        "groupName": "名"
+    },
+    {
+        "surface": "風花",
+        "reading": "ふうか",
+        "pos": "人名",
+        "comment": "葉山風花",
+        "group": 14,
+        "groupName": "名"
+    },
+    {
+        "surface": "りん",
+        "reading": "りん",
+        "pos": "人名",
+        "comment": "来栖りん",
+        "group": 14,
+        "groupName": "名"
+    },
+    {
+        "surface": "安養寺姫芽",
+        "reading": "あんようじひめ",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ みらくらぱーく！のメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "大賀美沙知",
+        "reading": "おおがみさち",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ のメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "大沢瑠璃乃",
+        "reading": "おおさわるりの",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ みらくらぱーく！のメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "乙宗梢",
+        "reading": "おとむねこずえ",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ スリーズブーケのメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "徒町小鈴",
+        "reading": "かちまちこすず",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ DOLLCHESTRAのメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "桂城泉",
+        "reading": "かつらぎいずみ",
+        "pos": "人名",
+        "comment": "瑞河女子高等学校の生徒、同校スクールアイドル部のメンバー、Edel Noteのメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "セラス柳田リリエンフェルト",
+        "reading": "せらすやなぎだりりえんふぇると",
+        "pos": "人名",
+        "comment": "瑞河女子高等学校附属中学校の生徒、Edel Noteのメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "日野下花帆",
+        "reading": "ひのしたかほ",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ スリーズブーケのメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "藤島慈",
+        "reading": "ふじしまめぐみ",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ みらくらぱーく！のメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "村野さやか",
+        "reading": "むらのさやか",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ DOLLCHESTRAのメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "村野つかさ",
+        "reading": "むらのつかさ",
+        "pos": "人名",
+        "comment": "村野さやかの姉",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "百生吟子",
+        "reading": "ももせぎんこ",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ スリーズブーケのメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "菅叶和",
+        "reading": "かんかんな",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 大沢瑠璃乃 役",
+        "group": 12,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "せっちゃん",
+        "reading": "せっちゃん",
+        "pos": "人名",
+        "comment": "セラス柳田リリエンフェルト",
+        "group": 10,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "泉",
+        "reading": "いずみ",
+        "pos": "人名",
+        "comment": "桂城泉",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "りんちゃん",
+        "reading": "りんちゃん",
+        "pos": "人名",
+        "comment": "来栖りん",
+        "group": 15,
+        "groupName": "愛称"
+    },
+    {
+        "surface": "夕霧綴理",
+        "reading": "ゆうぎりつづり",
+        "pos": "人名",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ DOLLCHESTRAのメンバー",
+        "group": 7,
+        "groupName": "フルネーム"
+    },
+    {
+        "surface": "えな",
+        "reading": "えな",
+        "pos": "人名",
+        "comment": "えな",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "小鈴",
+        "reading": "こすず",
+        "pos": "人名",
+        "comment": "徒町小鈴",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "沙知",
+        "reading": "さち",
+        "pos": "人名",
+        "comment": "大賀美沙知",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "梢",
+        "reading": "こずえ",
+        "pos": "人名",
+        "comment": "乙宗梢",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "しいな",
+        "reading": "しいな",
+        "pos": "人名",
+        "comment": "しいな",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "セラス",
+        "reading": "せらす",
+        "pos": "人名",
+        "comment": "セラス柳田リリエンフェルト",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "つかさ",
+        "reading": "つかさ",
+        "pos": "人名",
+        "comment": "村野つかさ",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "さやか",
+        "reading": "さやか",
+        "pos": "人名",
+        "comment": "村野さやかの姉",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "姫芽",
+        "reading": "ひめ",
+        "pos": "人名",
+        "comment": "安養寺姫芽",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "びわこ",
+        "reading": "びわこ",
+        "pos": "人名",
+        "comment": "びわこ",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "慈",
+        "reading": "めぐみ",
+        "pos": "人名",
+        "comment": "藤島慈",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "瑠璃乃",
+        "reading": "るりの",
+        "pos": "人名",
+        "comment": "大沢瑠璃乃",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "Edel Note",
+        "reading": "えーでるのーと",
+        "pos": "固有名詞",
+        "comment": "瑞河女子高等学校スクールアイドル部",
+        "group": 17,
+        "groupName": "ユニット・アーティスト名"
+    },
+    {
+        "surface": "かほめぐ♡じぇらーと",
+        "reading": "かほめぐじぇらーと",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブのユニット",
+        "group": 17,
+        "groupName": "ユニット・アーティスト名"
     },
     {
         "surface": "スリーズブーケ",
@@ -40,12 +656,84 @@
         "groupName": "ユニット・アーティスト名"
     },
     {
-        "surface": "希望的プリズム",
-        "reading": "きぼうてきぷりずむ",
+        "surface": "DOLLCHESTRA",
+        "reading": "どるけすとら",
         "pos": "固有名詞",
-        "comment": "DOLLCHESTRAの楽曲",
-        "group": 18,
-        "groupName": "楽曲名"
+        "comment": "蓮ノ空女学院スクールアイドルクラブのユニット",
+        "group": 17,
+        "groupName": "ユニット・アーティスト名"
+    },
+    {
+        "surface": "蓮ノ休日",
+        "reading": "はすのきゅうじつ",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブのユニット",
+        "group": 17,
+        "groupName": "ユニット・アーティスト名"
+    },
+    {
+        "surface": "みらくらぱーく！",
+        "reading": "みらくらぱーく",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブのユニット",
+        "group": 17,
+        "groupName": "ユニット・アーティスト名"
+    },
+    {
+        "surface": "吟子",
+        "reading": "ぎんこ",
+        "pos": "人名",
+        "comment": "百生吟子",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "With×MEETS",
+        "reading": "うぃずみーつ",
+        "pos": "固有名詞",
+        "comment": "Link！Like！ラブライブ！ スクールアイドルはトークも必修？！みんなと一緒に、スクールアイドルクラブ、日々奮闘中！",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "活動記録",
+        "reading": "かつどうきろく",
+        "pos": "固有名詞",
+        "comment": "Link！Like！ラブライブ！ フルボイス＆フル3Dで描かれる「活動記録」！煌めく青春を生きる少女たちの物語。",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "SIsCa",
+        "reading": "しすか",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "スクールアイドルコネクト",
+        "reading": "すくーるあいどるこねくと",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "スクールアイドルステージ",
+        "reading": "すくーるあいどるすてーじ",
+        "pos": "固有名詞",
+        "comment": "Link！Like！ラブライブ！ ミュージカルカードゲーム。",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "るりのとゆかいなつづりたち",
+        "reading": "るりのとゆかいなつづりたち",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブのユニット",
+        "group": 17,
+        "groupName": "ユニット・アーティスト名"
     },
     {
         "surface": "スクステ",
@@ -54,5 +742,997 @@
         "comment": "スクールアイドルステージ",
         "group": 19,
         "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "せーので！はすのそら！",
+        "reading": "せーのではすのそら",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "スクコネ",
+        "reading": "すくこね",
+        "pos": "短縮よみ",
+        "comment": "スクールアイドルコネクト",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "綴理",
+        "reading": "つづり",
+        "pos": "人名",
+        "comment": "夕霧綴理",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "花帆",
+        "reading": "かほ",
+        "pos": "人名",
+        "comment": "日野下花帆",
+        "group": 9,
+        "groupName": "名"
+    },
+    {
+        "surface": "蓮ノ空女学院スクールアイドルクラブ",
+        "reading": "はすのそら",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "#蓮ノ空感想文",
+        "reading": "はすのそらかんそうぶん",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "蓮ノ空女学院",
+        "reading": "はすのそらじょがくいん",
+        "pos": "固有名詞",
+        "comment": "石川県金沢市から奥まった場所で、蓮の花の咲く湖の傍らにある私立蓮ノ空女学院。",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "蓮ノ空女学院購買部",
+        "reading": "はすのそらじょがくいんこうばいぶ",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "蓮ノ空女学院スクールアイドルクラブ",
+        "reading": "はすのそらじょがくいんすくーるあいどるくらぶ",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院のスクールアイドルクラブ",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "撫子祭",
+        "reading": "なでしこさい",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "#蓮ノ空美術部",
+        "reading": "はすのそらびじゅつぶ",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "蓮ノ空",
+        "reading": "はすのそら",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "ちぇすとー！",
+        "reading": "ちぇすとー",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "Fes×LIVE",
+        "reading": "ふぇすらいぶ",
+        "pos": "固有名詞",
+        "comment": "Link！Like！ラブライブ！ メンバーたちの成果が結実する晴れ舞台、Fes×LIVE!ライブの様子は、全国に“生”配信!!",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "フラワー",
+        "reading": "ふらわー",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "#蓮ノ空舞台巡礼",
+        "reading": "はすのそらぶたいじゅんれい",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "瑞河女子高等学校",
+        "reading": "みずかわじょしこうとうがっこう",
+        "pos": "固有名詞",
+        "comment": "長野県の私立高等学校。2024年度を以て廃校。",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "蓮ノ空のこと好き好きクラブのみなさん",
+        "reading": "はすのそらのことすきすきくらぶのみなさん",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "八重咲ステージ",
+        "reading": "やえざきすてーじ",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "リンクラ",
+        "reading": "りんくら",
+        "pos": "短縮よみ",
+        "comment": "Link！Like！ラブライブ！",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "Link-Like O.S.",
+        "reading": "りんくらいくおーえす",
+        "pos": "固有名詞",
+        "comment": "Link！Like！ラブライブ！のシステム。あなたの応援活動を全力サポート！",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "Link！Like！ラブライブ！",
+        "reading": "りんくらいくらぶらいぶ",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブが活躍するスマートフォン向けスクールアイドル応援活動アプリ。",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "はろめぐ～",
+        "reading": "はろめぐー",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブ 藤島慈の挨拶",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "瑞河女子高等学校スクールアイドル部",
+        "reading": "みずかわじょしこうとうがっこうすくーるあいどるぶ",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "ABCトリオ",
+        "reading": "ABCトリオ",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 20,
+        "groupName": "一般(非公式語句)"
+    },
+    {
+        "surface": "アニメ・スタいしかわ",
+        "reading": "あにめすたいしかわ",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 20,
+        "groupName": "一般(非公式語句)"
+    },
+    {
+        "surface": "SIsCa",
+        "reading": "すしか",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 20,
+        "groupName": "一般(非公式語句)"
+    },
+    {
+        "surface": "ツエーゲン金沢",
+        "reading": "つえーげんかなざわ",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 20,
+        "groupName": "一般(非公式語句)"
+    },
+    {
+        "surface": "瑞河",
+        "reading": "みずかわ",
+        "pos": "固有名詞",
+        "comment": "瑞河女子高等学校",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "蓮之空喜欢喜欢俱乐部",
+        "reading": "はすのそらのことすきすきくらぶ",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 20,
+        "groupName": "一般(非公式語句)"
+    },
+    {
+        "surface": "８番らーめん",
+        "reading": "はちばんらーめん",
+        "pos": "固有名詞",
+        "comment": "石川県を中心に展開するラーメン店",
+        "group": 20,
+        "groupName": "一般(非公式語句)"
+    },
+    {
+        "surface": "蓮華祭",
+        "reading": "れんげさい",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "松葉屋",
+        "reading": "まつばや",
+        "pos": "固有名詞",
+        "comment": "石川県小松市の菓子店",
+        "group": 20,
+        "groupName": "一般(非公式語句)"
+    },
+    {
+        "surface": "竜胆祭",
+        "reading": "りんどうさい",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 19,
+        "groupName": "一般(公式語句)"
+    },
+    {
+        "surface": "アイデンティティ",
+        "reading": "あいでんてぃてぃ",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "不室屋",
+        "reading": "ふむろや",
+        "pos": "固有名詞",
+        "comment": "石川県金沢市の加賀麩専門店",
+        "group": 20,
+        "groupName": "一般(非公式語句)"
+    },
+    {
+        "surface": "#zweigen",
+        "reading": "つえーげんかなざわ",
+        "pos": "固有名詞",
+        "comment": "",
+        "group": 20,
+        "groupName": "一般(非公式語句)"
+    },
+    {
+        "surface": "青とシャボン",
+        "reading": "あおとしゃぼん",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "アステリズム",
+        "reading": "あすてりずむ",
+        "pos": "固有名詞",
+        "comment": "乙宗 梢、夕霧綴理、藤島 慈の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "AWOKE",
+        "reading": "あうぉーく",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "飴色",
+        "reading": "あめいろ",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ゆのくに天祥",
+        "reading": "ゆのくにてんしょう",
+        "pos": "固有名詞",
+        "comment": "石川県加賀市の旅館",
+        "group": 20,
+        "groupName": "一般(非公式語句)"
+    },
+    {
+        "surface": "永遠のEuphoria",
+        "reading": "えいえんのゆーふぉりあ",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Edelied",
+        "reading": "えーでりーと",
+        "pos": "固有名詞",
+        "comment": "Edel Noteの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "365 Days",
+        "reading": "えぶりでい",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "おいでよ！石川大観光",
+        "reading": "おいでよいしかわだいかんこう",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "明日の空の僕たちへ",
+        "reading": "あすのそらのぼくたちへ",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "アオクハルカ",
+        "reading": "あおくはるか",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "On your mark",
+        "reading": "おんゆあまーく",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "かくれんぼしよう",
+        "reading": "かくれんぼしよう",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "AURORA FLOWER",
+        "reading": "おーろらふらわー",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "以心☆電信",
+        "reading": "いしんでんしん",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "KEY of Like！",
+        "reading": "きーおぶらいく",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "希望的プリズム",
+        "reading": "きぼうてきぷりずむ",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ゲッカビジン",
+        "reading": "げっかびじん",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "眩耀夜行",
+        "reading": "げんようやこう",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "恋景色昭和ロマン",
+        "reading": "こいげしきしょうわろまん",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Colorfulness",
+        "reading": "からふるねす",
+        "pos": "固有名詞",
+        "comment": "るりのとゆかいなつづりたちの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Kawaii no susume",
+        "reading": "かわいいのすすめ",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "謳歌爛漫",
+        "reading": "おうからんまん",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ジブンダイアリー",
+        "reading": "じぶんだいありー",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "シュガーメルト",
+        "reading": "しゅがーめると",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ジョーショーキリュー",
+        "reading": "じょーしょーきりゅー",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "水彩世界",
+        "reading": "すいさいせかい",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "素顔のピクセル",
+        "reading": "すがおのぴくせる",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "スケイプゴート",
+        "reading": "すけいぷごーと",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "STEP UP !",
+        "reading": "すてっぷあっぷ",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "残陽",
+        "reading": "ざんよう",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Special Thanks",
+        "reading": "すぺしゃるさんくす",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "COMPASS",
+        "reading": "こんぱす",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "千変万華",
+        "reading": "せんぺんばんか",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "全方位キュン♡",
+        "reading": "ぜんほういきゅん",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "抱きしめる花びら",
+        "reading": "だきしめるはなびら",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "青春の輪郭",
+        "reading": "せいしゅんのりんかく",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ツキマカセ",
+        "reading": "つきまかせ",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "月夜見海月",
+        "reading": "つくよみくらげ",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ツバサ・ラ・リベルテ",
+        "reading": "つばさらりべるて",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Dear my future",
+        "reading": "でぃあまいふゅーちゃー",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "DEEPNESS",
+        "reading": "でぃーぷねす",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Take It Over",
+        "reading": "ていくいっとおーばー",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ココン東西",
+        "reading": "ここんとうざい",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Chu! Chocolate",
+        "reading": "ちゅちょこれーと",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ド！ド！ド！",
+        "reading": "どどど",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Sparkly Spot",
+        "reading": "すぱーくりーすぽっと",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "天才なのかもしれない",
+        "reading": "てんさいなのかもしれない",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ドリビリ",
+        "reading": "どりびり",
+        "pos": "短縮よみ",
+        "comment": "Dream Believers",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Now or Never",
+        "reading": "なうおあねばー",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "夏めきペイン",
+        "reading": "なつめきペイン",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "KNOT",
+        "reading": "のっと",
+        "pos": "短縮よみ",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ノンフィクションヒーローショー",
+        "reading": "のんふぃくしょんひーろーしょー",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "バアドケージ",
+        "reading": "ばあどけーじ",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ハクチューアラモード",
+        "reading": "はくちゅーあらもーど",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Trick ＆ Cute",
+        "reading": "とりっくあんどきゅーと",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ハッピー至上主義！",
+        "reading": "はっぴーしじょうしゅぎ",
+        "pos": "固有名詞",
+        "comment": "かほめぐ♡じぇらーとの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ハナムスビ",
+        "reading": "はなむすび",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Dream Believers",
+        "reading": "どりーむびりーばーず",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "BANG YOU グラビティ",
+        "reading": "ばんゆーぐらびてぃ",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Tragic Drops",
+        "reading": "とらじっくどろっぷす",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "フォーチュンムービー",
+        "reading": "ふぉーちゅんむーびー",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Proof",
+        "reading": "ぷるーふ",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Pleasure Feather",
+        "reading": "ぷれじゃーふぇざー",
+        "pos": "固有名詞",
+        "comment": "蓮ノ休日の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "パラレルダンサー",
+        "reading": "ぱられるだんさー",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "恥は人生のかきすて",
+        "reading": "はじはじんせいのかきすて",
+        "pos": "固有名詞",
+        "comment": "百生吟子、徒町小鈴、安養寺姫芽の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "マハラジャンボリー",
+        "reading": "まはらじゃんぼりー",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "マハラジャンボリーⅡ",
+        "reading": "まはらじゃんぼりーつー",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Mix shake!!",
+        "reading": "みっくすしぇいく",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Mirage Voyage",
+        "reading": "みらーじゅぼやーじゅ",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ファンファーレ！！！",
+        "reading": "ふぁんふぁーれ",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ミルク",
+        "reading": "みるく",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Holiday∞Holiday",
+        "reading": "ほりでーほりでー",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "みらくりえーしょん",
+        "reading": "みらくりえーしょん",
+        "pos": "固有名詞",
+        "comment": "みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ベジ・ラブ・ルー",
+        "reading": "べじらぶるー",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Yup! Yup! Yup!",
+        "reading": "やっぷやっぷやっぷ",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Reflection in the mirror",
+        "reading": "りふれくしょんいんざみらー",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Link to the FUTURE",
+        "reading": "りんくとぅざふゅーちゃー",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケ＆DOLLCHESTRA＆みらくらぱーく！の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Legato",
+        "reading": "れがーと",
+        "pos": "固有名詞",
+        "comment": "蓮ノ空女学院スクールアイドルクラブの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Runway",
+        "reading": "らんうぇい",
+        "pos": "固有名詞",
+        "comment": "村野さやかの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "レム",
+        "reading": "れむ",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "ユメワズライ",
+        "reading": "ゆめわずらい",
+        "pos": "固有名詞",
+        "comment": "スリーズブーケの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "Love it! Wonderful Trip!",
+        "reading": "らぶいっとわんだふるとりっぷ",
+        "pos": "固有名詞",
+        "comment": "日野下花帆、村野さやか、大沢瑠璃乃の楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "異次元フェス アイドルマスター★♥ラブライブ！歌合戦",
+        "reading": "いじげんふぇすあいどるますたーらぶらいぶうたがっせん",
+        "pos": "固有名詞",
+        "comment": "2023年12月9日～10日に開催された、異次元フェスの第一弾。アイドルマスター × ラブライブ！異次元のコラボライブイベント",
+        "group": 3,
+        "groupName": "一般"
+    },
+    {
+        "surface": "Bring the LOVE！",
+        "reading": "ぶりんぐざらぶ",
+        "pos": "固有名詞",
+        "comment": "渡辺 曜、上原歩夢、澁谷かのん、日野下花帆、高坂穂乃果の楽曲",
+        "group": 3,
+        "groupName": "一般"
+    },
+    {
+        "surface": "レディバグ",
+        "reading": "れでぃばぐ",
+        "pos": "固有名詞",
+        "comment": "DOLLCHESTRAの楽曲",
+        "group": 18,
+        "groupName": "楽曲名"
+    },
+    {
+        "surface": "こなち",
+        "reading": "こなち",
+        "pos": "人名",
+        "comment": "月音こな",
+        "group": 15,
+        "groupName": "愛称"
     }
 ]
