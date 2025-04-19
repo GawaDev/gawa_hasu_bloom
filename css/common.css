@@ -66,12 +66,13 @@ body {
 .material-icons {
     font-size: 32px;
     color: white;
+    vertical-align: middle;
 }
 
 /* ====== グリッド型アプリメニュー（右上ランチャー） ====== */
 .app-menu-grid {
     position: absolute;
-    top: 48px;
+    top: var(--header-height);
     right: 0;
     background-color: white;
     border-radius: 16px;
