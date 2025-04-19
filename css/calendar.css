@@ -1,10 +1,11 @@
-/* style.css - Bloom Calendar 専用スタイル（common.css と併用） */
 main {
     display: grid;
     grid-template-columns: 225px 1fr;
     gap: 1rem;
+    overflow: hidden;
 }
 
+/* ペイン設定 */
 aside {
     overflow-y: auto;
 }
@@ -13,17 +14,13 @@ aside {
     overflow-y: auto;
 }
 
-#calendar {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
-    min-width: 1250px;
-}
-
-.calendar-controls {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+/*左ペイン*/
+.calendar-date {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 0.5em;
 }
 
 #prev-month::before {
@@ -40,13 +37,12 @@ aside {
     font-size: 1.5rem;
 }
 
-.calendar-date {
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #666;
-    margin-bottom: 0.5em;
+.calendar-controls {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
+
 
 .calendar-year {
     font-size: 1rem;
@@ -56,6 +52,14 @@ aside {
 .calendar-month {
     font-size: 2rem;
     font-weight: bold;
+}
+
+/* 右ペイン */
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    min-width: 1250px;
 }
 
 .calendar-day,
@@ -149,6 +153,8 @@ aside {
     line-height: 1;
 }
 
+
+/* ===== モーダル ===== */
 .modal {
     display: none;
     position: fixed;

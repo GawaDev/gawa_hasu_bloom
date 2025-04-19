@@ -1,5 +1,4 @@
-// Ime Data
-// 自動生成されたレイヤグループのリストを抽出してパネルを構築するための形式
+// ime.js 完全版（共通化対応済）
 
 let imeData = [];
 
@@ -13,45 +12,39 @@ window.addEventListener("DOMContentLoaded", async () => {
     document.querySelector("#dynamic-layer-panel").addEventListener("change", renderWordList);
 });
 
-// レイヤ一覧をユニークに取得
+// ユニークなグループ取得
 const getUniqueGroupNames = () => {
     const seen = new Set();
-    const result = [];
-    for (const item of imeData) {
-        if (!seen.has(item.groupName)) {
-            seen.add(item.groupName);
-            result.push({ group: item.group, groupName: item.groupName });
+    return imeData.filter(({ groupName }) => {
+        if (!seen.has(groupName)) {
+            seen.add(groupName);
+            return true;
         }
-    }
-    return result;
+        return false;
+    }).map(({ group, groupName }) => ({ group, groupName }));
 };
 
-// レイヤパネルを動的生成
+// レイヤパネル表示
 const renderLayerPanel = () => {
     const container = document.querySelector("#dynamic-layer-panel");
     container.innerHTML = "";
-
-    const uniqueGroups = getUniqueGroupNames();
-
-    for (const { group, groupName } of uniqueGroups) {
+    getUniqueGroupNames().forEach(({ group, groupName }) => {
         const checkbox = document.createElement("div");
         checkbox.className = "layer-checkbox";
         checkbox.innerHTML = `
-        <input type="checkbox" class="layer" value="${group}" data-code="${group}" checked>
-        ${groupName}
-      `;
+      <input type="checkbox" class="layer" value="${group}" data-code="${group}" checked>
+      ${groupName}
+    `;
         container.appendChild(checkbox);
-    }
+    });
 };
 
-// フィルタ適用後の語句リストを表示
+// 語句リスト描画
 const renderWordList = () => {
     const tbody = document.querySelector("#word-list");
     tbody.innerHTML = "";
-
     const selectedGroups = Array.from(document.querySelectorAll(".layer:checked"))
         .map(cb => Number(cb.dataset.code));
-
     const filtered = imeData.filter(word => selectedGroups.includes(word.group));
 
     for (const word of filtered) {
@@ -76,17 +69,12 @@ const renderWordList = () => {
         const tdComment = document.createElement("td");
         tdComment.textContent = word.comment;
 
-        tr.appendChild(tdCheck);
-        tr.appendChild(tdSurface);
-        tr.appendChild(tdReading);
-        tr.appendChild(tdPos);
-        tr.appendChild(tdComment);
-
+        tr.append(tdCheck, tdSurface, tdReading, tdPos, tdComment);
         tbody.appendChild(tr);
     }
 };
 
-// プレビュー表示
+// 出力プレビュー
 function previewOutput() {
     document.querySelector("#preview").textContent = buildOutput();
     document.querySelector("#preview-modal").classList.remove("hidden");

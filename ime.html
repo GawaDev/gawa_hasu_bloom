@@ -5,8 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bloom IME</title>
+    <!-- スタイル -->
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/ime.css" />
+    <!-- OGP / Twitterカード -->
     <meta property="og:title" content="Bloom IME" />
     <meta property="og:description" content="蓮ノ空とキャスト関連の語句のIME辞書を出力できます。" />
     <meta property="og:image" content="https://bloom-apps.vercel.app/assets/ime/og-image.png" />
@@ -16,10 +19,27 @@
     <meta name="twitter:title" content="Bloom IME" />
     <meta name="twitter:description" content="蓮ノ空とキャスト関連の語句のIME辞書を出力できます。" />
     <meta name="twitter:image" content="https://bloom-apps.vercel.app/assets/ime/og-image.png" />
+    <!-- アイコン -->
     <link rel="icon" href="assets/ime/favicon.ico" />
     <link rel="apple-touch-icon" href="assets/ime/apple-touch-icon.png" />
+    <!-- マニフェスト -->
     <link rel="manifest" href="manifest.json" />
     <meta name="theme-color" content="#FF6591" />
+    <script>
+        window.currentApp = "ime";
+
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker.register("service-worker.js")
+                    .then(function (registration) {
+                        console.log("ServiceWorker registration successful with scope: ", registration.scope);
+                    })
+                    .catch(function (error) {
+                        console.log("ServiceWorker registration failed: ", error);
+                    });
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -55,47 +75,61 @@
     </header>
 
     <main>
-        <div class="container">
-            <aside class="sidebar">
-                <div class="output-settings">
-                    <label for="format">出力形式</label>
-                    <select class="select" id="format">
-                        <option value="skk">SKK辞書</option>
-                        <option value="msime">MS-IME</option>
-                        <option value="google">Google日本語入力</option>
-                    </select>
-                    <button class="button secondary" onclick="previewOutput()">プレビュー</button>
-                    <button class="button primary" onclick="downloadOutput()">出力</button>
-                </div>
+        <aside>
+            <div class="output-settings">
+                <label for="format">出力形式</label>
+                <select id="format" class="select">
+                    <option value="skk">SKK辞書</option>
+                    <option value="msime">MS-IME</option>
+                    <option value="google">Google日本語入力</option>
+                </select>
+                <button class="button secondary small" onclick="previewOutput()">プレビュー</button>
+                <button class="button primary small" onclick="downloadOutput()">出力</button>
+            </div>
 
-                <div class="layer-panel">
-                    <div class="panel-title">フィルタ（レイヤ）</div>
-                    <div id="dynamic-layer-panel" class="layer-checkboxes"></div>
+            <div class="layer-panel collapsible-panel collapsed">
+                <div class="panel-title">レイヤパネル</div>
+                <button class="panel-toggle-button" onclick="togglePanel(this)">
+                    レイヤパネル表示切替
+                </button>
+                <div class="collapsible-content">
+                    <div class="layer-group" id="contents-layer-group">
+                        <div class="layer-name">コンテンツ</div>
+                        <div class="layer-toggle-buttons">
+                            <button class="button secondary small"
+                                onclick="toggleAllLayers(this.closest('.layer-group'), true)">全選択</button>
+                            <button class="button secondary small"
+                                onclick="toggleAllLayers(this.closest('.layer-group'), false)">全解除</button>
+                        </div>
+                        <div class="layer-checkboxes" id="dynamic-layer-panel"></div>
+                    </div>
                 </div>
-            </aside>
+            </div>
+        </aside>
 
-            <section class="main">
-                <h2>語句一覧</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>語句</th>
-                            <th>よみ</th>
-                            <th>品詞</th>
-                            <th>コメント</th>
-                        </tr>
-                    </thead>
-                    <tbody id="word-list"></tbody>
-                </table>
+        <div id="ime-container">
+            <h2>語句一覧</h2>
+            <p>出力する語句を選択してください。</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>語句</th>
+                        <th>よみ</th>
+                        <th>品詞</th>
+                        <th>コメント</th>
+                    </tr>
+                </thead>
+                <tbody id="word-list"></tbody>
+            </table>
             </section>
-        </div>
 
-        <div id="preview-modal" class="modal hidden">
-            <div class="modal-content">
-                <span class="close-button" onclick="closeModal()">&times;</span>
-                <h3>出力プレビュー</h3>
-                <pre id="preview"></pre>
+            <div id="preview-modal" class="modal hidden">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeModal()">&times;</span>
+                    <h3>出力プレビュー</h3>
+                    <pre id="preview"></pre>
+                </div>
             </div>
         </div>
     </main>

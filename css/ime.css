@@ -1,15 +1,20 @@
-/* ========================
-   Bloom IME 専用スタイル
-   ======================== */
-
-/* コンテナレイアウト */
-.container {
-    display: flex;
+main {
+    display: grid;
+    grid-template-columns: 225px 1fr;
     gap: 1rem;
+    overflow: auto;
 }
 
-/* 左ペイン（サイドバー） */
+/* ペイン設定 */
+aside {
+    overflow-y: auto;
+}
 
+#ime-container {
+    overflow-y: auto;
+}
+
+/* 左ペイン */
 
 /* 出力設定 */
 .output-settings {
@@ -22,44 +27,6 @@
 .output-settings select,
 .output-settings button {
     width: 100%;
-}
-
-/* メインエリア */
-.main {
-    flex: 1;
-    background: white;
-    border-radius: 1rem;
-    padding: 1rem;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    overflow-x: auto;
-}
-
-/* テーブル表示 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1rem;
-    background-color: white;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
-}
-
-th,
-td {
-    padding: 0.75rem 1rem;
-    text-align: left;
-    border-bottom: 1px solid #eee;
-}
-
-th {
-    background-color: var(--secondary-light);
-    color: white;
-    font-weight: bold;
-}
-
-tr:hover {
-    background-color: #f9f9f9;
 }
 
 /* モーダル */
@@ -91,6 +58,14 @@ tr:hover {
     position: relative;
 }
 
+.modal-content pre {
+    margin: 0;
+    overflow: scroll;
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
 .close-button {
     position: absolute;
     top: 0.75rem;
@@ -100,33 +75,17 @@ tr:hover {
     color: #666;
 }
 
-.modal-content pre {
-    margin: 0;
-    overflow: scroll;
-}
-
 /* ========================
-   レスポンシブ対応（スマホ）
-   ======================== */
+     レスポンシブ対応（スマホ）
+     ======================== */
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 100%;
-        padding: 1rem;
+    main {
+        grid-template-columns: 1fr;
     }
 
     .output-settings select,
     .output-settings button {
         width: 100%;
-    }
-
-    table th,
-    table td {
-        font-size: 0.9rem;
-        padding: 0.5rem;
     }
 
     .modal-content {
