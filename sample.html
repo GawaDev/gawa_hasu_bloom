@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bloom Sample</title>
+    <!-- スタイル -->
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <!-- OGPなど -->
+    <meta property="og:title" content="Bloom Sample" />
+    <meta property="og:description" content="共通UIスタイルのサンプルページ" />
+    <meta name="theme-color" content="#FF6591" />
+    <script>
+        window.currentApp = "sample";
+
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker.register("service-worker.js")
+                    .then(function (registration) {
+                        console.log("ServiceWorker registration successful with scope: ", registration.scope);
+                    })
+                    .catch(function (error) {
+                        console.log("ServiceWorker registration failed: ", error);
+                    });
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="logo">Bloom Sample</div>
+        <div class="nav">
+            <div class="app-launcher">
+                <span class="material-icons">apps</span>
+                <div class="app-menu-grid">
+                    <a href="index.html" class="app-grid-item app-grid-main" data-app="apps">
+                        <img src="assets/common/icon-apps.png" alt="Apps" />
+                        <span>Apps</span>
+                    </a>
+                    <a href="database.html" class="app-grid-item" data-app="database">
+                        <img src="assets/common/icon-database.png" alt="Database" />
+                        <span>Database</span>
+                    </a>
+                    <a href="calendar.html" class="app-grid-item" data-app="calendar">
+                        <img src="assets/common/icon-calendar.png" alt="Calendar" />
+                        <span>Calendar</span>
+                    </a>
+                    <a href="maps.html" class="app-grid-item" data-app="maps">
+                        <img src="assets/common/icon-maps.png" alt="Maps" />
+                        <span>Maps</span>
+                    </a>
+                    <a href="ime.html" class="app-grid-item" data-app="ime">
+                        <img src="assets/common/icon-ime.png" alt="IME" />
+                        <span>IME</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Bloom UIサンプル</h1>
+
+        <!-- ボタン -->
+        <section>
+            <h2>ボタン</h2>
+            <button class="button primary">Primary</button>
+            <button class="button secondary">Secondary</button>
+            <button class="button primary-light">Primary Light</button>
+            <button class="button secondary-light">Secondary Light</button>
+            <br />
+            <button class="button primary small">Small Primary</button>
+            <button class="button secondary small">Small Secondary</button>
+        </section>
+
+        <!-- カード -->
+        <div class="card">
+            <h2>カード例</h2>
+            <p>このカードは共通スタイルの装飾が適用されています。</p>
+        </div>
+
+        <!-- テーブル -->
+        <section>
+            <h2>テーブル</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>名前</th>
+                        <th>役割</th>
+                        <th>所属</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>蓮ノ空 花子</td>
+                        <td>ボーカル</td>
+                        <td>スクールアイドル</td>
+                    </tr>
+                    <tr>
+                        <td>花園 華</td>
+                        <td>ダンサー</td>
+                        <td>キャスト</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- レイヤーパネル -->
+        <div class="layer-panel collapsible-panel collapsed">
+            <div class="panel-title">レイヤパネル</div>
+            <button class="panel-toggle-button" onclick="togglePanel(this)">表示切替</button>
+            <div class="collapsible-content">
+                <div class="layer-group" id="group-a">
+                    <div class="layer-name">グループA</div>
+                    <div class="layer-toggle-buttons">
+                        <button class="button secondary small"
+                            onclick="toggleAllLayers(this.closest('.layer-group'), true)">全選択</button>
+                        <button class="button secondary small"
+                            onclick="toggleAllLayers(this.closest('.layer-group'), false)">全解除</button>
+                    </div>
+                    <div class="layer-checkboxes"></div>
+                </div>
+
+                <div class="layer-group" id="group-b">
+                    <div class="layer-name">グループB</div>
+                    <div class="layer-toggle-buttons">
+                        <button class="button secondary small"
+                            onclick="toggleAllLayers(this.closest('.layer-group'), true)">全選択</button>
+                        <button class="button secondary small"
+                            onclick="toggleAllLayers(this.closest('.layer-group'), false)">全解除</button>
+                    </div>
+                    <div class="layer-checkboxes"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- モーダル -->
+        <button class="button primary small"
+            onclick="document.getElementById('modal').style.display='block'">モーダルを開く</button>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button"
+                    onclick="document.getElementById('modal').style.display='none'">&times;</span>
+                <div>
+                    <div class="content-label" style="background-color: var(--primary-color)">モーダル</div>
+                    <p>これはモーダルの中身です。</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- スクリプト -->
+    <script src="js/common.js"></script>
+    <script src="js/sample.js"></script>
+</body>
+
+</html>
