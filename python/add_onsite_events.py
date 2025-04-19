@@ -35,12 +35,12 @@ def add_onsite_events(new_event, repeat_until=None, repeat_interval_weeks=1):
 if __name__ == "__main__":
     # 新しいイベントの情報
     new_event = {
-        "date": "2025-04-21",
-        "start_time": "12:00",
+        "date": "2025-0-0",
+        "start_time": "",
         "end_time": "",
-        "content_codes": ["hasunosora"],
-        "name": "ライブグランプリ「105期OpeningTerm サークル対抗戦」開始",
-        "location_code": ["link_like_lovelive"],
+        "content_codes": [""],
+        "name": "",
+        "location_code": [""],
         "websites": [""],
     }
 
