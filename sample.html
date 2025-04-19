@@ -86,7 +86,13 @@
         <!-- テーブル -->
         <section>
             <h2>テーブル</h2>
-            <table>
+            <input type="text" id="search-box" placeholder="キーワード検索"
+                oninput="filterTable({tableId: 'word-table', searchInputId: 'search-box', checkboxesClass: 'filter-check'})" />
+
+            <label><input type="checkbox" class="filter-check" value="スクールアイドル" checked>スクールアイドル</label>
+            <label><input type="checkbox" class="filter-check" value="キャスト" checked>キャスト</label>
+
+            <table id="word-table">
                 <thead>
                     <tr>
                         <th>名前</th>
@@ -95,18 +101,29 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr data-filter-value="スクールアイドル">
                         <td>蓮ノ空 花子</td>
                         <td>ボーカル</td>
                         <td>スクールアイドル</td>
                     </tr>
-                    <tr>
+                    <tr data-filter-value="キャスト">
                         <td>花園 華</td>
                         <td>ダンサー</td>
                         <td>キャスト</td>
                     </tr>
                 </tbody>
             </table>
+        </section>
+
+        <!-- セレクトボックス -->
+        <section>
+            <h2>セレクトボックス</h2>
+            <label for="sample-select">選択してください：</label>
+            <select id="sample-select">
+                <option value="option1">選択肢 1</option>
+                <option value="option2">選択肢 2</option>
+                <option value="option3">選択肢 3</option>
+            </select>
         </section>
 
         <!-- レイヤーパネル -->

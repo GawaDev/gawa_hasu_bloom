@@ -15,3 +15,7 @@ window.onload = async function () {
         console.error("データの読み込みに失敗しました", error);
     }
 };
+/* テーブル構築 */
+document.addEventListener("DOMContentLoaded", () => {
+    initializeTableFeatures("word-table");
+});

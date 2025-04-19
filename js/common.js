@@ -77,3 +77,29 @@ function toggleAllLayers(groupElement, selectAll) {
     window.dispatchEvent(event);
 }
 
+function initializeTableFeatures(tableId) {
+    const table = document.getElementById(tableId);
+    if (!table) return;
+
+    const headers = table.querySelectorAll("thead th");
+    const tbody = table.querySelector("tbody");
+
+    let sortColumn = -1;
+    let sortAsc = true;
+
+    headers.forEach((th, index) => {
+        th.style.cursor = "pointer";
+        th.addEventListener("click", () => {
+            const rows = Array.from(tbody.querySelectorAll("tr"));
+            sortAsc = sortColumn === index ? !sortAsc : true;
+            sortColumn = index;
+            rows.sort((a, b) => {
+                const valA = a.children[index].textContent.trim();
+                const valB = b.children[index].textContent.trim();
+                return (valA.localeCompare(valB, "ja") || valA - valB) * (sortAsc ? 1 : -1);
+            });
+            tbody.innerHTML = "";
+            rows.forEach(row => tbody.appendChild(row));
+        });
+    });
+}
