@@ -27,14 +27,12 @@ aside {
     vertical-align: middle;
     font-family: "Material Icons";
     content: '\e314';
-    font-size: 1.5rem;
 }
 
 #next-month::after {
     vertical-align: middle;
     font-family: "Material Icons";
     content: '\e315';
-    font-size: 1.5rem;
 }
 
 .calendar-controls {
