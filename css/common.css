@@ -308,18 +308,19 @@ tr:hover {
 .layer-checkbox {
     display: flex;
     align-items: center;
-    margin-bottom: 0.25rem;
 }
 
 .layer-checkbox input[type="checkbox"] {
     appearance: none;
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 6px;
     margin-right: 0.5rem;
     position: relative;
     background-color: white;
     border: 2px solid currentColor;
+    text-align: center;
+    font-size: 1rem;
 }
 
 .layer-checkbox input[type="checkbox"]:checked {
@@ -330,9 +331,6 @@ tr:hover {
     font-family: "Material Icons";
     content: '\e5ca';
     color: white;
-    position: absolute;
-    top: 0;
-    font-size: 1.25em;
 }
 
 /* 開閉式パネルの切替ボタン */
