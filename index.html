@@ -138,9 +138,9 @@
                     <div class="layer-name">レイヤグループ A</div>
                     <div class="layer-toggle-buttons">
                         <button class="button secondary small"
-                            onclick="toggleAllLayers(document.getElementById('group-a'), true)">全選択</button>
+                            onclick="toggleAllLayers(this.getElementById('group-a'), true)">全選択</button>
                         <button class="button secondary small"
-                            onclick="toggleAllLayers(document.getElementById('group-a'), false)">全解除</button>
+                            onclick="toggleAllLayers(this.getElementById('group-a'), false)">全解除</button>
                     </div>
                     <div class="layer-checkboxes"></div>
                 </div>
@@ -149,9 +149,9 @@
                     <div class="layer-name">レイヤグループ B</div>
                     <div class="layer-toggle-buttons">
                         <button class="button secondary small"
-                            onclick="toggleAllLayers(document.getElementById('group-b'), true)">全選択</button>
+                            onclick="toggleAllLayers(this.getElementById('group-b'), true)">全選択</button>
                         <button class="button secondary small"
-                            onclick="toggleAllLayers(document.getElementById('group-b'), false)">全解除</button>
+                            onclick="toggleAllLayers(this.getElementById('group-b'), false)">全解除</button>
                     </div>
                     <div class="layer-checkboxes"></div>
                 </div>
@@ -162,21 +162,6 @@
     <!-- スクリプト -->
     <script src="js/common.js"></script>
     <script src="js/apps.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const groupA = {
-                "a1": { name: "A-レイヤ1", color: "#FF6591" },
-                "a2": { name: "A-レイヤ2", color: "#FFB6C1" }
-            };
-            const groupB = {
-                "b1": { name: "B-レイヤ1", color: "#7C7AE0" },
-                "b2": { name: "B-レイヤ2", color: "#B0AEEE" }
-            };
-
-            buildLayerPanel("group-a", groupA);
-            buildLayerPanel("group-b", groupB);
-        });
-    </script>
 </body>
 
 </html>
