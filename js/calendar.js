@@ -38,14 +38,6 @@ window.onload = async function () {
     }
 };
 
-function getMonthYearFromURL() {
-    const params = new URLSearchParams(window.location.search);
-    return {
-        month: params.get("month") ? parseInt(params.get("month")) - 1 : new Date().getMonth(),
-        year: params.get("year") ? parseInt(params.get("year")) : new Date().getFullYear()
-    };
-}
-
 document.getElementById("prev-month").addEventListener("click", () => {
     if (currentMonth === 0) {
         currentMonth = 11;
@@ -66,16 +58,33 @@ document.getElementById("next-month").addEventListener("click", () => {
     updateCalendar();
 });
 
-function updateCalendar() {
-    createCalendar(currentYear, currentMonth);
-    window.history.replaceState({}, '', `?month=${currentMonth + 1}&year=${currentYear}`);
-}
-
 // イベントリスナーを使って反応させる（レイヤーチェックボックス用）
 window.addEventListener("layerchange", (e) => {
     updateCalendar();
 });
 
+document.querySelector(".close-button").addEventListener("click", () => {
+    document.getElementById("modal").style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+    if (e.target === document.getElementById("modal")) {
+        document.getElementById("modal").style.display = "none";
+    }
+});
+
+function getMonthYearFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    return {
+        month: params.get("month") ? parseInt(params.get("month")) - 1 : new Date().getMonth(),
+        year: params.get("year") ? parseInt(params.get("year")) : new Date().getFullYear()
+    };
+}
+
+function updateCalendar() {
+    createCalendar(currentYear, currentMonth);
+    window.history.replaceState({}, '', `?month=${currentMonth + 1}&year=${currentYear}`);
+}
 
 function combineAndFilterEvents() {
     const container = document.querySelector("#contents-layer-group .layer-checkboxes");
@@ -210,13 +219,3 @@ function createEventDiv(ev) {
 
     return div;
 }
-
-document.querySelector(".close-button").addEventListener("click", () => {
-    document.getElementById("modal").style.display = "none";
-});
-
-window.addEventListener("click", (e) => {
-    if (e.target === document.getElementById("modal")) {
-        document.getElementById("modal").style.display = "none";
-    }
-});
