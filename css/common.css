@@ -295,6 +295,7 @@ select:focus {
 /* テーブルを囲むラッパー */
 .table-scroll-wrapper {
     overflow-x: auto;
+    min-width: 800px;
     width: 100%;
 }
 
