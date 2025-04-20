@@ -92,27 +92,36 @@
             <label><input type="checkbox" class="filter-check" value="スクールアイドル" checked>スクールアイドル</label>
             <label><input type="checkbox" class="filter-check" value="キャスト" checked>キャスト</label>
 
-            <table id="word-table">
-                <thead>
-                    <tr>
-                        <th>名前</th>
-                        <th>役割</th>
-                        <th>所属</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr data-filter-value="スクールアイドル">
-                        <td data-label="名前">蓮ノ空 花子</td>
-                        <td data-label="役割">ボーカル</td>
-                        <td data-label="所属">スクールアイドル</td>
-                    </tr>
-                    <tr data-filter-value="キャスト">
-                        <td data-label="名前">花園 華</td>
-                        <td data-label="役割">ダンサー</td>
-                        <td data-label="所属">キャスト</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-scroll-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>名前</th>
+                            <th>役割</th>
+                            <th>所属</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>蓮ノ空 花子</td>
+                            <td>ボーカル</td>
+                            <td>スクールアイドル</td>
+                        </tr>
+                        <tr>
+                            <td>花園 華</td>
+                            <td>ダンサー</td>
+                            <td>キャスト</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- テキストボックス -->
+        <section>
+            <h2>テキストボックス</h2>
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name" placeholder="蓮ノ空 花子" />
         </section>
 
         <!-- セレクトボックス -->

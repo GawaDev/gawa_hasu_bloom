@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloom Maps</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/apps.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">Bloom Maps</div>
+        <div class="nav">
+            <div class="app-launcher">
+                <img src="assets/common/icon-apps.png" alt="apps" onclick="toggleAppMenu()" />
+                <div id="app-menu" class="app-menu-grid" style="display: none"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="grid grid-cols">
+        <aside class="sidebar">
+            <div id="layer-panel"></div>
+        </aside>
+        <section class="main-content">
+            <div id="map" style="height: 80vh; width: 100%"></div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/maps.js"></script>
+</body>
+
+</html>

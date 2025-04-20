@@ -103,3 +103,26 @@ function initializeTableFeatures(tableId) {
         });
     });
 }
+
+// テーブル内のtdに data-label を自動付与（レスポンシブ対応）
+function assignDataLabelsToTables() {
+    const tables = document.querySelectorAll("table");
+
+    tables.forEach(table => {
+        const headers = Array.from(table.querySelectorAll("thead th")).map(th => th.textContent.trim());
+
+        table.querySelectorAll("tbody tr").forEach(row => {
+            const cells = row.querySelectorAll("td");
+            cells.forEach((cell, i) => {
+                if (headers[i]) {
+                    cell.setAttribute("data-label", headers[i]);
+                }
+            });
+        });
+    });
+}
+
+// ページ読み込み時に適用
+document.addEventListener("DOMContentLoaded", () => {
+    assignDataLabelsToTables();
+});

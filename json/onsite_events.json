@@ -8812,6 +8812,21 @@
     },
     {
         "date": "2025-04-20",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "2025 SPRING LIMITED COLLECTION vol.2 開始",
+        "location_code": [
+            "link_like_lovelive"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-20",
         "start_time": "20:00",
         "end_time": "",
         "content_codes": [
@@ -8819,6 +8834,21 @@
         ],
         "name": "進藤あまねの「あまね部！」 #57",
         "location_code": "niconico_ch_plus",
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-20",
+        "start_time": "22:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "同時視聴会 3Dアニメ 活動記録/ストーリー 105期 第1話 「Brand New Stories!!」前編",
+        "location_code": [
+            "youtube"
+        ],
         "websites": [
             ""
         ]
@@ -8861,6 +8891,21 @@
             "hasunosora"
         ],
         "name": "ライブグランプリ「105期OpeningTerm サークル対抗戦」開始",
+        "location_code": [
+            "link_like_lovelive"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-21",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "ライブグランプリ「105期OpeningTerm サークル対抗戦」 開始",
         "location_code": [
             "link_like_lovelive"
         ],
@@ -8949,6 +8994,21 @@
         ],
         "name": "葉山風花のHappy Lucky!(本編+おまけ更新)",
         "location_code": "qlover_hfhl",
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-22",
+        "start_time": "12:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "活動記録 105期 第1話『Brand New Stories!!』後編",
+        "location_code": [
+            "link_like_lovelive"
+        ],
         "websites": [
             ""
         ]
@@ -9081,6 +9141,21 @@
         "name": "石川県 加賀友禅コラボ 第ニ弾 開始",
         "location_code": [
             ""
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-25",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "カルクル オーダーメイドレザーグッズ受注(10-20時)",
+        "location_code": [
+            "kanazawa_gema"
         ],
         "websites": [
             ""
@@ -9236,6 +9311,51 @@
         ],
         "websites": [
             "https://www.lovelive-anime.jp/news/01_4567.html"
+        ]
+    },
+    {
+        "date": "2025-04-26",
+        "start_time": "",
+        "end_time": "03:59",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "ライブグランプリ「105期OpeningTerm サークル対抗戦」 終了",
+        "location_code": [
+            "link_like_lovelive"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-26",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "カルクル オーダーメイドレザーグッズ受注(10-20時)",
+        "location_code": [
+            "kanazawa_gema"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-26",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "蓮ノ空キッチンカー(10-1630)",
+        "location_code": [
+            "ishikawa_santen_4"
+        ],
+        "websites": [
+            ""
         ]
     },
     {
@@ -9426,6 +9546,36 @@
     },
     {
         "date": "2025-04-27",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "カルクル オーダーメイドレザーグッズ受注(10-20時)",
+        "location_code": [
+            "kanazawa_gema"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-27",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "蓮ノ空キッチンカー(10-1530)",
+        "location_code": [
+            "ishikawa_santen_4"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-27",
         "start_time": "11:00",
         "end_time": "",
         "content_codes": [
@@ -9507,6 +9657,36 @@
         "location_code": "",
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-04-28",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "カルクル オーダーメイドレザーグッズ受注(10-20時)",
+        "location_code": [
+            "kanazawa_gema"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-28",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "蓮ノ空キッチンカー(10-18) 開始(-5/27)",
+        "location_code": [
+            "kanazawa_forus"
+        ],
+        "websites": [
+            "https://www.lovelive-anime.jp/news/01_4603.html"
         ]
     },
     {
@@ -9791,6 +9971,21 @@
         ],
         "websites": [
             "https://www.linklikeshop.com/"
+        ]
+    },
+    {
+        "date": "2025-05-01",
+        "start_time": "",
+        "end_time": "11:59",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "2025 SPRING LIMITED COLLECTION vol.2 終了",
+        "location_code": [
+            "link_like_lovelive"
+        ],
+        "websites": [
+            ""
         ]
     },
     {
@@ -10323,6 +10518,36 @@
     },
     {
         "date": "2025-05-12",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "蓮ノ空キッチンカー 前半コースター終了",
+        "location_code": [
+            "kanazawa_forus"
+        ],
+        "websites": [
+            "https://www.lovelive-anime.jp/news/01_4603.html"
+        ]
+    },
+    {
+        "date": "2025-05-12",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "蓮ノ空キッチンカー 花帆ドリンク 開始(-5/25)",
+        "location_code": [
+            "kanazawa_forus"
+        ],
+        "websites": [
+            "https://www.lovelive-anime.jp/news/01_4603.html"
+        ]
+    },
+    {
+        "date": "2025-05-12",
         "start_time": "22:30",
         "end_time": "23:00",
         "content_codes": [
@@ -10332,6 +10557,21 @@
         "location_code": "qlover_ag",
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-05-13",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "蓮ノ空キッチンカー 後半コースター開始",
+        "location_code": [
+            "kanazawa_forus"
+        ],
+        "websites": [
+            "https://www.lovelive-anime.jp/news/01_4603.html"
         ]
     },
     {
@@ -10872,6 +11112,21 @@
     },
     {
         "date": "2025-05-25",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "蓮ノ空キッチンカー 花帆ドリンク 終了",
+        "location_code": [
+            "kanazawa_forus"
+        ],
+        "websites": [
+            "https://www.lovelive-anime.jp/news/01_4603.html"
+        ]
+    },
+    {
+        "date": "2025-05-25",
         "start_time": "12:00",
         "end_time": "",
         "content_codes": [
@@ -10907,6 +11162,21 @@
         "location_code": "qlover_ag",
         "websites": [
             ""
+        ]
+    },
+    {
+        "date": "2025-05-27",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "蓮ノ空キッチンカー(10-18) 終了(4/28-)",
+        "location_code": [
+            "kanazawa_forus"
+        ],
+        "websites": [
+            "https://www.lovelive-anime.jp/news/01_4603.html"
         ]
     },
     {

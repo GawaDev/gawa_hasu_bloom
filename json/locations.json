@@ -846,6 +846,17 @@
             ""
         ]
     },
+    "kanazawa_forus": {
+        "name": "金沢フォーラス",
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "nearest_station": "金沢",
+        "capacity": 0,
+        "show_map": true,
+        "websites": [
+            ""
+        ]
+    },
     "shibuya_take_off_7": {
         "name": "SHIBUYA TAKE OFF 7",
         "prefecture": "東京都",

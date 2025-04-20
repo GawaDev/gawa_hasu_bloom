@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloom Database</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/apps.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">Bloom Database</div>
+        <div class="nav">
+            <div class="app-launcher">
+                <img src="assets/common/icon-apps.png" alt="apps" onclick="toggleAppMenu()" />
+                <div id="app-menu" class="app-menu-grid" style="display: none"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="p-4">
+        <h2>データベース閲覧</h2>
+        <div>
+            <label for="dataset-select">データ種別:</label>
+            <select id="dataset-select"></select>
+        </div>
+        <div class="table-scroll-wrapper">
+            <table id="database-table">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="js/common.js"></script>
+    <script src="js/database.js"></script>
+</body>
+
+</html>

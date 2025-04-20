@@ -1,0 +1,473 @@
+
+// 一般系
+
+Table holidays {
+    id int [pk, increment]
+    name varchar
+    date date
+    remarks text
+}
+
+Table locations {
+    id varchar [pk]
+    name varchar
+    reading varchar
+    abbreviation varchar
+    country varchar
+    prefecture varchar
+    city varchar
+    address_detail varchar
+    latitude decimal
+    longitude decimal
+    nearest_station varchar
+    capacity int
+}
+
+Table location_urls {
+    id int [pk, increment]
+    location_id varchar [ref: > locations.id]
+    url varchar
+}
+
+Table location_groups {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+    abbreviation varchar
+    prefecture varchar
+    city varchar
+    address_detail varchar
+    latitude decimal
+    longitude decimal
+    nearest_station varchar
+}
+
+Table web_services {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+}
+
+Table web_service_urls {
+    id int [pk, increment]
+    web_service_id int [ref: > web_services.id]
+    url varchar
+}
+
+// キャスト
+
+Table casts {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+    name_en varchar
+    abbreviation varchar
+    birthdate date
+    height int
+    description text
+}
+
+Table cast_nicknames {
+    id int [pk, increment]
+    cast_id int [ref: > casts.id]
+    nickname varchar
+}
+
+Table cast_urls {
+    id int [pk, increment]
+    cast_id int [ref: > casts.id]
+    url varchar
+}
+
+Table cast_organizations {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+    prefecture varchar
+    city varchar
+    address_detail varchar
+    latitude decimal
+    longitude decimal
+}
+
+Table cast_organization_urls {
+    id int [pk, increment]
+    organization_id int [ref: > cast_organizations.id]
+    url varchar
+}
+
+Table cast_histories {
+    id int [pk, increment]
+    cast_id int [ref: > casts.id]
+    start_date date
+    end_date date
+    organization_id int [ref: > cast_organizations.id]
+    article text
+    remarks text
+}
+
+Table creators {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+}
+
+Table creator_urls {
+    id int [pk, increment]
+    creator_id int [ref: > creators.id]
+    url varchar
+}
+
+// キャスト舞台地紹介アイテム
+
+Table cast_spot_items {
+    id int [pk, increment]
+    name varchar
+    latitude decimal
+    longitude decimal
+    article text
+    event_id int
+}
+
+
+// 蓮ノ空_キャラクター関連
+
+Table hasunosora_characters {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+    name_en varchar
+    abbreviation varchar
+    enrollment_term varchar
+    birthdate date
+    height int
+    color_code varchar
+    unit_name varchar
+    description text
+}
+
+Table hasunosora_character_nicknames {
+    id int [pk, increment]
+    character_id int [ref: > hasunosora_characters.id]
+    nickname varchar
+}
+
+Table hasunosora_character_profiles {
+    id int [pk, increment]
+    character_id int [ref: > hasunosora_characters.id]
+    term varchar
+    grade varchar
+    description text
+    hobby varchar
+    skill varchar
+    visual_path varchar
+    order_no int
+}
+
+Table hasunosora_character_casts {
+    id int [pk, increment]
+    character_id int [ref: > hasunosora_characters.id]
+    cast_id int [ref: > casts.id]
+    start_date date
+    end_date date
+    visual_path varchar
+    order_no int
+}
+
+Table hasunosora_character_histories {
+    id int [pk, increment]
+    character_id int [ref: > hasunosora_characters.id]
+    start_date date
+    end_date date
+    organization_id int [ref: > hasunosora_character_orgs.id]
+    article text
+    remarks text
+    order_no int
+}
+
+Table hasunosora_character_orgs {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+}
+
+// ディスコグラフィ系
+
+Table hasunosora_discographies {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+    description text
+    release_date date
+    ll_url varchar
+    label_url varchar
+    jacket_path varchar
+}
+
+Table hasunosora_discography_disks {
+    id int [pk, increment]
+    discography_id int [ref: > hasunosora_discographies.id]
+    disk_id int [ref: > hasunosora_disks.id]
+    order_no int
+}
+
+Table hasunosora_disks {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+    description text
+    disk_type varchar
+    content_type varchar
+    catalog_number varchar
+}
+
+Table hasunosora_disk_songs {
+    id int [pk, increment]
+    disk_id int [ref: > hasunosora_disks.id]
+    song_id int [ref: > hasunosora_songs.id]
+    order_no int
+}
+
+Table hasunosora_songs {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+    description text
+    artist_id int [ref: > hasunosora_artists.id]
+    lyrics_path varchar
+    spotify_url varchar
+    applemusic_url varchar
+    ytmusic_url varchar
+    linkla_date date
+    linkla_jacket varchar
+    costume_id int [ref: > hasunosora_costumes.id]
+}
+
+Table hasunosora_song_creators {
+    id int [pk, increment]
+    song_id int [ref: > hasunosora_songs.id]
+    creator_id int [ref: > creators.id]
+    work_type varchar
+    order_no int
+}
+
+Table hasunosora_song_groups {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+}
+
+Table hasunosora_song_group_members {
+    id int [pk, increment]
+    group_id int [ref: > hasunosora_song_groups.id]
+    song_id int [ref: > hasunosora_songs.id]
+    order_no int
+}
+
+Table hasunosora_artists {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+}
+
+Table hasunosora_artist_members {
+    id int [pk, increment]
+    artist_id int [ref: > hasunosora_artists.id]
+    character_cast_id int [ref: > hasunosora_character_casts.id]
+    order_no int
+}
+
+Table hasunosora_artist_groups {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+}
+
+Table hasunosora_artist_group_members {
+    id int [pk, increment]
+    group_id int [ref: > hasunosora_artist_groups.id]
+    artist_id int [ref: > hasunosora_artists.id]
+    order_no int
+}
+
+// イベント系
+
+Table hasunosora_event_types {
+    id int [pk, increment]
+    name varchar
+}
+
+Table hasunosora_events_day {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+    is_all_day boolean
+    start_date date
+    start_time varchar
+    end_date date
+    end_time varchar
+    type_id int [ref: > hasunosora_event_types.id]
+}
+
+Table hasunosora_event_locations {
+    id int [pk, increment]
+    event_id int [ref: > hasunosora_events_day.id]
+    location_id varchar [ref: > locations.id]
+}
+
+Table hasunosora_event_web_services {
+    id int [pk, increment]
+    event_id int [ref: > hasunosora_events_day.id]
+    web_service_id int [ref: > web_services.id]
+}
+
+Table hasunosora_event_urls {
+    id int [pk, increment]
+    event_id int [ref: > hasunosora_events_day.id]
+    url varchar
+}
+
+Table hasunosora_event_activities {
+    id int [pk, increment]
+    event_id int [ref: > hasunosora_events_day.id]
+    activity_id int [ref: > hasunosora_activities.id]
+}
+
+Table hasunosora_event_sics {
+    id int [pk, increment]
+    event_id int [ref: > hasunosora_events_day.id]
+    sic_id int [ref: > hasunosora_school_idol_connect.id]
+}
+
+Table hasunosora_event_characters {
+    id int [pk, increment]
+    event_id int [ref: > hasunosora_events_day.id]
+    character_id int [ref: > hasunosora_characters.id]
+    remarks text
+    order_no int
+}
+
+Table hasunosora_event_casts {
+    id int [pk, increment]
+    event_id int [ref: > hasunosora_events_day.id]
+    cast_id int [ref: > casts.id]
+    remarks text
+    order_no int
+}
+
+Table hasunosora_event_setlists {
+    id int [pk, increment]
+    event_id int [ref: > hasunosora_events_day.id]
+    track_no varchar
+    song_id int [ref: > hasunosora_songs.id]
+    article text
+    remarks text
+    order_no int
+}
+
+Table hasunosora_event_setlist_members {
+    id int [pk, increment]
+    setlist_id int [ref: > hasunosora_event_setlists.id]
+    member varchar
+    costume_id int [ref: > hasunosora_costumes.id]
+    order_no int
+}
+
+Table hasunosora_event_discs {
+    id int [pk, increment]
+    event_id int [ref: > hasunosora_events_day.id]
+    discography_id int [ref: > hasunosora_discographies.id]
+    order_no int
+}
+
+Table hasunosora_events_group {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+}
+
+Table hasunosora_event_group_members {
+    id int [pk, increment]
+    group_id int [ref: > hasunosora_events_group.id]
+    event_day_id int [ref: > hasunosora_events_day.id]
+    order_no int
+}
+
+Table hasunosora_events_tour {
+    id int [pk, increment]
+    name varchar
+    reading varchar
+}
+
+Table hasunosora_event_tour_members {
+    id int [pk, increment]
+    tour_id int [ref: > hasunosora_events_tour.id]
+    group_id int [ref: > hasunosora_events_group.id]
+    order_no int
+}
+
+Table hasunosora_costumes {
+    id int [pk, increment]
+    name varchar
+    description text
+    image_linkla_path varchar
+    image_cast_path varchar
+}
+
+Table hasunosora_activities {
+    id int [pk, increment]
+    name varchar
+    year int
+    month int
+    description text
+    article text
+}
+
+Table hasunosora_activity_parts {
+    id int [pk, increment]
+    activity_id int [ref: > hasunosora_activities.id]
+    track_no varchar
+    title varchar
+    duration varchar
+}
+
+Table hasunosora_school_idol_connect {
+    id int [pk, increment]
+    name varchar
+    datetime datetime
+    duration varchar
+    summary text
+    article text
+}
+
+Table hasunosora_cards {
+    id int [pk, increment]
+    name varchar
+    release_date date
+    image_before_path varchar
+    image_after_path varchar
+    voice1 text
+    voice2 text
+    voice3 text
+}
+
+Table hasunosora_card_cross_voices {
+    id int [pk, increment]
+    card_id int [ref: > hasunosora_cards.id]
+    character_id int [ref: > hasunosora_characters.id]
+    text text
+}
+
+// 舞台地・紹介アイテム
+
+Table hasunosora_spots {
+    id int [pk, increment]
+    name varchar
+    type varchar
+    latitude decimal
+    longitude decimal
+    activity_id int [ref: > hasunosora_activities.id]
+    school_idol_connect_id int [ref: > hasunosora_school_idol_connect.id]
+    card_id int [ref: > hasunosora_cards.id]
+    article text
+}
