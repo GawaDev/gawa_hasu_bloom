@@ -422,6 +422,7 @@ th::after {
 
     .app-menu-grid {
         grid-template-columns: repeat(2, 1fr);
+        min-width: none;
     }
 
     .layer-panel {
