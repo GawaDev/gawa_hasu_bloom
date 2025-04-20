@@ -35,13 +35,13 @@ def add_onsite_events(new_event, repeat_until=None, repeat_interval_weeks=1):
 if __name__ == "__main__":
     # 新しいイベントの情報
     new_event = {
-        "date": "2025-05-25",
-        "start_time": "",
+        "date": "2025-04-24",
+        "start_time": "10:00",
         "end_time": "",
-        "content_codes": ["hasunosora"],
-        "name": "蓮ノ空キッチンカー 花帆ドリンク 終了",
-        "location_code": ["kanazawa_forus"],
-        "websites": ["https://www.lovelive-anime.jp/news/01_4603.html"],
+        "content_codes": ["kan"],
+        "name": "VOICEスタイルVOL.2 #かんかんに聞きたいこと 〆切",
+        "location_code": [""],
+        "websites": ["https://x.com/VOICEChannel4/status/1913565128265703811"],
     }
 
     # 単発イベント

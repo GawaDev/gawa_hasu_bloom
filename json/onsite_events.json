@@ -9090,6 +9090,21 @@
     },
     {
         "date": "2025-04-24",
+        "start_time": "10:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "VOICEスタイルVOL.2 #かんかんに聞きたいこと 〆切",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://x.com/VOICEChannel4/status/1913565128265703811"
+        ]
+    },
+    {
+        "date": "2025-04-24",
         "start_time": "16:00",
         "end_time": "",
         "content_codes": [
@@ -12285,6 +12300,21 @@
         ],
         "websites": [
             "https://www.youtube.com/channel/UC4goPtB-z_4vh3WQ37HZ-nw"
+        ]
+    },
+    {
+        "date": "2025-06-27",
+        "start_time": "",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "VOICEスタイルVOL.2 発売(裏表紙:菅叶和)",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            "https://x.com/VOICEChannel4/status/1913565128265703811"
         ]
     },
     {
