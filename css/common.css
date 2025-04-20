@@ -420,6 +420,10 @@ th::after {
         align-items: flex-end;
     }
 
+    .app-menu-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .layer-panel {
         width: 100%;
         border-right: none;
