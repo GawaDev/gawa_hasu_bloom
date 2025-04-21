@@ -9014,6 +9014,19 @@
         ]
     },
     {
+        "date": "2025-04-21",
+        "start_time": "21:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "かんめぐ生放送#5(メール15時まで)",
+        "location_code": "niconico",
+        "websites": [
+            ""
+        ]
+    },
+    {
         "date": "2025-04-22",
         "start_time": "21:55",
         "end_time": "22:00",
@@ -9353,6 +9366,21 @@
         "name": "カルクル オーダーメイドレザーグッズ受注(10-20時)",
         "location_code": [
             "kanazawa_gema"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-26",
+        "start_time": "14:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "みらくらマイクラ part.5 プレミア公開",
+        "location_code": [
+            "youtube"
         ],
         "websites": [
             ""
