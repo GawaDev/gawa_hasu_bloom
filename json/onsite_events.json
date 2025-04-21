@@ -8958,6 +8958,19 @@
     },
     {
         "date": "2025-04-21",
+        "start_time": "21:00",
+        "end_time": "",
+        "content_codes": [
+            "kan"
+        ],
+        "name": "かんめぐ生放送#5(メール15時まで)",
+        "location_code": "niconico",
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-21",
         "start_time": "22:30",
         "end_time": "23:00",
         "content_codes": [
@@ -9009,19 +9022,6 @@
         "location_code": [
             "link_like_lovelive"
         ],
-        "websites": [
-            ""
-        ]
-    },
-    {
-        "date": "2025-04-21",
-        "start_time": "21:00",
-        "end_time": "",
-        "content_codes": [
-            "kan"
-        ],
-        "name": "かんめぐ生放送#5(メール15時まで)",
-        "location_code": "niconico",
         "websites": [
             ""
         ]
@@ -9373,21 +9373,6 @@
     },
     {
         "date": "2025-04-26",
-        "start_time": "14:00",
-        "end_time": "",
-        "content_codes": [
-            "hasunosora"
-        ],
-        "name": "みらくらマイクラ part.5 プレミア公開",
-        "location_code": [
-            "youtube"
-        ],
-        "websites": [
-            ""
-        ]
-    },
-    {
-        "date": "2025-04-26",
         "start_time": "",
         "end_time": "",
         "content_codes": [
@@ -9505,6 +9490,21 @@
     },
     {
         "date": "2025-04-26",
+        "start_time": "14:00",
+        "end_time": "",
+        "content_codes": [
+            "hasunosora"
+        ],
+        "name": "みらくらマイクラ part.5 プレミア公開",
+        "location_code": [
+            "youtube"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-26",
         "start_time": "16:30",
         "end_time": "19:30",
         "content_codes": [
@@ -9612,6 +9612,36 @@
         "name": "蓮ノ空キッチンカー(10-1530)",
         "location_code": [
             "ishikawa_santen_4"
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-27",
+        "start_time": "",
+        "end_time": "18:00",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "YATTEKURU 質問X投稿〆",
+        "location_code": [
+            ""
+        ],
+        "websites": [
+            ""
+        ]
+    },
+    {
+        "date": "2025-04-27",
+        "start_time": "",
+        "end_time": "18:00",
+        "content_codes": [
+            "tsukine"
+        ],
+        "name": "YATTEKURU 質問X投稿〆",
+        "location_code": [
+            ""
         ],
         "websites": [
             ""
