@@ -9103,8 +9103,8 @@
     },
     {
         "date": "2025-04-24",
-        "start_time": "10:00",
-        "end_time": "",
+        "start_time": "",
+        "end_time": "10:00",
         "content_codes": [
             "kan"
         ],
