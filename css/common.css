@@ -337,6 +337,14 @@ th::after {
     color: white;
 }
 
+.notice {
+    background-color: var(--primary-light);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    padding: .5rem;
+    font-weight: bolder;
+}
+
 /* ====== カード共通 ====== */
 .card {
     background-color: white;
