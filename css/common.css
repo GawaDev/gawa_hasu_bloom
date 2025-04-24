@@ -342,6 +342,7 @@ th::after {
     border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     padding: .5rem;
+    margin: .5rem 0;
     font-weight: bolder;
 }
 
@@ -440,6 +441,10 @@ th::after {
         border-radius: 0;
         top: unset;
         position: relative;
+    }
+
+    .notice {
+        font-size: small;
     }
 
     .panel-toggle-button {
