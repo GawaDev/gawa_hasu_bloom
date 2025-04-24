@@ -39,10 +39,23 @@ self.addEventListener("install", event => {
 
 self.addEventListener("fetch", event => {
     event.respondWith(
-        caches.match(event.request).then(response => {
-            return response || fetch(event.request);
-        }).catch(() => {
-            return caches.match("./index.html");
-        })
+        fetch(event.request)
+            .then(networkResponse => {
+                // ネットワークから正常に取得できた場合はキャッシュを更新する
+                return caches.open(CACHE_NAME).then(cache => {
+                    // リクエストが GET のときだけキャッシュ
+                    if (event.request.method === "GET") {
+                        cache.put(event.request, networkResponse.clone());
+                    }
+                    return networkResponse;
+                });
+            })
+            .catch(() => {
+                // オフライン等でネットから取得できなかった場合はキャッシュから返す
+                return caches.match(event.request).then(cachedResponse => {
+                    // キャッシュにない場合は index.html（オフライン用）を返す
+                    return cachedResponse || caches.match("./index.html");
+                });
+            })
     );
 });
