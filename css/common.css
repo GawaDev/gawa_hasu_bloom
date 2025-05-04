@@ -2,7 +2,7 @@
    共通スタイル - BloomServecies
    ============================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Akshar&family=BIZ+UDGothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=BIZ+UDGothic&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 :root {
@@ -26,7 +26,7 @@
 /* ====== ベース ====== */
 body {
     margin: 0;
-    font-family: 'BIZ UDGothic', 'Akshar', 'Helvetica Neue', 'Segoe UI', sans-serif;
+    font-family: 'Fredoka', 'BIZ UDGothic', 'Helvetica Neue', 'Segoe UI', sans-serif;
     background: linear-gradient(to right, var(--background-gradient-left), var(--background-gradient-right));
     color: #333;
 }
