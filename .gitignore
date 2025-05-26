@@ -1,0 +1,13 @@
+# データベースファイル
+database.db
+/ics/calendar.ics
+
+# エディタ設定ファイル (VSCode)
+.vscode/
+
+# 一時ファイルや空ファイル
+/database/.txt
+
+# OSが自動生成するファイル (念のため)
+.DS_Store
+Thumbs.db
