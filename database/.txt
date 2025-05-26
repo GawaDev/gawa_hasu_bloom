@@ -1,3 +1,0 @@
-せーはす　せーはすの聖地関連追加
-https://dbdiagram.io/d/6804b8a51ca52373f5a01300
-https://dbdocs.io/train.train.103/bloom_database?table=locations&schema=public&view=table_structure
